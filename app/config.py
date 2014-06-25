@@ -1,4 +1,4 @@
-APP_NAME = 'poolit'
+APP_NAME = 'getstrappo'
 TAG = '0.0.1'
 
 DEBUG = False
