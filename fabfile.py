@@ -61,21 +61,14 @@ def bootstrap():
     print(cyan("Prerequisites..."))
     prerequisites()
 
-    if 'skip_repo' not in env:
-        print(cyan("Cloning repo..."))
-        rclone()
-
-    print(cyan("Updating config..."))
-    cupload()
+    print(cyan("Cloning repo..."))
+    rclone()
 
     print(cyan("Applying puppet manifest..."))
     papply()
 
     print(cyan('Creating venv...'))
     vcreate()
-
-    print(cyan('Initialize database...'))
-    dbupdate()
 
     print(cyan('Recreate i18n strings...'))
     i18nupdate()
@@ -85,21 +78,14 @@ def bootstrap():
 @task
 def update():
     ''' Update everything related to the app. '''
-    if 'skip_repo' not in env:
-        print(cyan("Updating repo..."))
-        rupdate()
-
-    print(cyan("Updating config..."))
-    cupload()
+    print(cyan("Updating repo..."))
+    rupdate()
 
     print(cyan("Applying puppet manifest..."))
     papply()
 
     print(cyan('Updating venv...'))
     vupdate()
-
-    print(cyan('Updating database...'))
-    dbupdate()
 
     print(cyan('Recreate i18n strings...'))
     i18nupdate()
