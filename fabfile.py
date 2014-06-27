@@ -23,7 +23,7 @@ from fabfilecommon import *
 
 env.appname = 'getstrappo'
 env.appport = '8000'
-env.servername = 'http://getstrappo.com'
+env.servername = 'getstrappo.com'
 env.repo_url = 'ssh://hg@bitbucket.org/iamFIREcracker/getstrappo'
 env.site_url = 'http://localhost:8080/hello'
 
