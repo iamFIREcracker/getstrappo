@@ -169,7 +169,9 @@ def check():
     print('Checking site status...')
 
     with settings(warn_only=True):
-        result = local('curl --silent -I "%s"' % env.site_url, capture=True)
+        command = 'curl --silent -I -H "Host: %s" "%s"' % \
+                (env.servername, env.site_url)
+        result = local(command, capture=True)
     if not '200 OK' in result:
         _sad()
     else:
