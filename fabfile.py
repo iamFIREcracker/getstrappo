@@ -37,8 +37,6 @@ def dev():
     env.venv_path = '/srv/www/%s/venv' % env.appname
     env.repo_branch = 'develop'
 
-    env.config = 'dev_config.py'
-
     env.servername = 'dev.getstrappo.com'
     env.site_url = 'http://%s' % env.hosts[0]
 
@@ -51,9 +49,7 @@ def prod():
 
     env.site_path = '/srv/www/%s' % env.appname
     env.venv_path = '/srv/www/%s/venv' % env.appname
-    env.repo_branch = 'staging'
-
-    env.config = 'prod_config.py'
+    env.repo_branch = 'production'
 
     env.servername = 'getstrappo.com'
     env.site_url = 'http://getstrappo.com'
