@@ -25,7 +25,6 @@ env.appname = 'getstrappo'
 env.appport = '8001'
 env.repo_url = 'ssh://hg@bitbucket.org/iamFIREcracker/getstrappo'
 
-
 @task
 def dev():
     env.env_name = 'strappo-ny'
