@@ -23,9 +23,7 @@ from fabfilecommon import *
 
 env.appname = 'getstrappo'
 env.appport = '8001'
-env.servername = 'dev.getstrappo.com'
 env.repo_url = 'ssh://hg@bitbucket.org/iamFIREcracker/getstrappo'
-env.site_url = 'http://dev.getstrappo.com'
 
 
 @task
@@ -41,6 +39,9 @@ def dev():
 
     env.config = 'dev_config.py'
 
+    env.servername = 'dev.getstrappo.com'
+    env.site_url = 'http://dev.getstrappo.com'
+
 @task
 def prod():
     env.env_name = 'strappo-am'
@@ -53,6 +54,9 @@ def prod():
     env.repo_branch = 'staging'
 
     env.config = 'prod_config.py'
+
+    env.servername = 'getstrappo.com'
+    env.site_url = 'http://getstrappo.com'
 
 
 @task
