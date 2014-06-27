@@ -17,18 +17,11 @@ web.config.LOGGER_NAME = config.LOGGER_NAME
 web.config.LOG_ENABLE = config.LOG_ENABLE
 web.config.LOG_FORMAT = config.LOG_FORMAT
 
-web.config.DATABASE_URL = config.DATABASE_URL
-
 web.config.DISABLE_HTTP_ACCEPT_CHECK = config.DISABLE_HTTP_ACCEPT_CHECK
-
-web.config.TITANIUM_KEY = config.TITANIUM_KEY
-web.config.TITANIUM_LOGIN = config.TITANIUM_LOGIN
-web.config.TITANIUM_PASSWORD = config.TITANIUM_PASSWORD
 
 
 def app_factory():
     """App factory."""
-    import weblib.db
     import weblib.gettext
     import weblib.redis
     from app.urls import URLS
@@ -38,7 +31,6 @@ def app_factory():
     from app.weblib.app_processors import load_session
     from app.weblib.app_processors import load_gettext
     from app.weblib.app_processors import load_redis
-    from app.weblib.app_processors import load_and_manage_orm
     from app.weblib.session import RedisStore
 
     redis = weblib.redis.create_redis()
@@ -53,6 +45,5 @@ def app_factory():
     app.add_processor(web.loadhook(load_session(session)))
     app.add_processor(web.loadhook(load_gettext(gettext)))
     app.add_processor(web.loadhook(load_redis(redis)))
-    app.add_processor(load_and_manage_orm(weblib.db.create_session()))
 
     return app
