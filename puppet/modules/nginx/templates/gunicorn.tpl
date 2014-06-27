@@ -5,7 +5,7 @@ upstream <%= @appname %> {
 }
 
 server {
-    listen 80 default;
+    listen 80;
     server_name <%= @servername %>;
 
     location /static/ {
