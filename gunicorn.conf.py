@@ -22,7 +22,7 @@ import os
 #   preload - Load application code before the worker processes are forked.
 #
 
-bind = '127.0.0.1:8000'
+bind = '127.0.0.1:8001'
 backlog = 2048
 preload = True
 
@@ -82,7 +82,7 @@ def get_workers():
         return 3
 
 workers = get_workers()
-worker_class = 'egg:gunicorn#sync'
+worker_class = 'sync'
 timeout = 30
 keepalive = 2
 
