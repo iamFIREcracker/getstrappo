@@ -51,7 +51,7 @@ def prod():
     env.repo_branch = 'production'
 
     env.servername = 'getstrappo.com'
-    env.site_url = 'http://getstrappo.com'
+    env.site_url = 'http://%s' % env.hosts[0]
 
 
 @task
