@@ -124,6 +124,19 @@ li {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Amatic';
+    src: url('../fonts/amaticsc-regular-webfont.eot');
+    src: url('../fonts/amaticsc-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/amaticsc-regular-webfont.woff') format('woff'),
+         url('../fonts/amaticsc-regular-webfont.ttf') format('truetype'),
+         url('../fonts/amaticsc-regular-webfont.svg#amatic_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
  
     @font-face {
@@ -136,7 +149,7 @@ li {
 
 h1,
 h2 {
-    font-family: 'Lane', sans-serif;
+    font-family: 'Amatic', sans-serif;
     font-weight: normal;
 }
 
