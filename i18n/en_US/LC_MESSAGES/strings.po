@@ -13,3 +13,11 @@ msgstr ""
 
 msgid "title"
 msgstr "Strappo - Sharing is carrying"
+
+msgid "available_on_the_stores"
+msgstr "Available on App Store and Play Store"
+
+msgid "download_app"
+msgstr "Download App"
+
+

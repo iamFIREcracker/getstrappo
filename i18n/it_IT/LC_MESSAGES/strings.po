@@ -13,3 +13,9 @@ msgstr ""
 
 msgid "title"
 msgstr "Strappo - viva la topa"
+
+msgid "available_on_the_stores"
+msgstr "Disponibile su App Store e Play Store"
+
+msgid "download_app"
+msgstr "Scarica App"
