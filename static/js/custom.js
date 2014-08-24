@@ -155,28 +155,24 @@ $(document).ready(function () {
         singleItem: true
     });
 
-    var owl = $("#screenshots");
+    $("#passenger-screenshots").owlCarousel({
 
-    owl.owlCarousel({
-        items: 4, //10 items above 1000px browser width
-        itemsDesktop: [1000, 4], //5 items between 1000px and 901px
-        itemsDesktopSmall: [900, 2], // betweem 900px and 601px
-        itemsTablet: [600, 1], //2 items between 600 and 0
-        itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
+        navigation: false, // Show next and prev buttons
+        slideSpeed: 800,
+        paginationSpeed: 400,
+        autoPlay: 5000,
+        singleItem: true
     });
 
+    $("#driver-screenshots").owlCarousel({
 
-});
-
-
-/* =================================
-===  Nivo Lightbox              ====
-=================================== */
-$(document).ready(function () {
-
-    $('#screenshots a').nivoLightbox({
-        effect: 'fadeScale',
+        navigation: false, // Show next and prev buttons
+        slideSpeed: 800,
+        paginationSpeed: 400,
+        autoPlay: 5000,
+        singleItem: true
     });
+
 
 });
 
