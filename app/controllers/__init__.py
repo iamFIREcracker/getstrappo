@@ -17,14 +17,12 @@ class IndexController(object):
 
 class IndexENController(object):
     def GET(self):
-        return web.ctx.render.index(gettext=partial(web.ctx.gettext,
-                                                    lang='en'))
+        return web.ctx.render.index(_=partial(web.ctx.gettext, lang='en'))
 
 
 class IndexITController(object):
     def GET(self):
-        return web.ctx.render.index(gettext=partial(web.ctx.gettext,
-                                                    lang='it'))
+        return web.ctx.render.index(_=partial(web.ctx.gettext, lang='it'))
 
 
 class OldIndexController(object):
