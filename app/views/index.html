@@ -104,12 +104,13 @@
 			<!-- NAVIGATION LINKS -->
 			<div class="navbar-collapse collapse" id="kane-navigation">
 				<ul class="nav navbar-nav navbar-right main-navigation">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#brief1">Why Us?</a></li>
-					<li><a href="#brief2">Desicribe</a></li>
+                    <li><a href="#home">{{ _('home') }}</a></li>
+                    <li><a href="#what">{{ _('what_it_is') }}</a></li>
+					<li><a href="#brief2">Passenger</a></li>
+                    <li><a href="#brief1">Driver</a></li>
 					<li><a href="#services">Services</a></li>
+                    <li><a href="#availability-section">Availability</a></li>
                     <li><a href="#team-section">Team</a></li>
-					<li><a href="#screenshot-section">Screenshots</a></li>
 					<li><a href="#download">Download</a></li>
 				</ul>
 			</div>
@@ -162,9 +163,9 @@
 <!-- /END HEADER -->
 
 <!-- =========================
-     BRIEF LEFT SECTION WITH VIDEO 
+     WHAT
 ============================== -->
-<section class="app-brief grey-bg" id="brief1">
+<section class="app-brief grey-bg" id="what">
 
 <div class="container">
     
@@ -195,14 +196,13 @@
         <div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
             
             <!-- SECTION TITLE -->
-            <h2 class="dark-text">Description with video</h2>
+            <h2 class="dark-text">{{ _('what_it_is') }}</h2>
             
             <div class="colored-line-left">
             </div>
             
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/><br/>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                {{ _('what_it_is_desc') }}
             </p>
             
             
@@ -219,280 +219,96 @@
 <!-- /END SECTION -->
 
 <!-- =========================
-     FEATURES 
-============================== -->
-<section class="features" id="features" id="features">
-
-<div class="container">
-	
-	<!-- SECTION HEADER -->
-	<div class="section-header wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-		
-		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Amazing Features</h2>
-		<div class="colored-line">
-		</div>
-		<div class="section-description">
-			List your app features and all the details Lorem ipsum dolor kadr
-		</div>
-		<div class="colored-line">
-		</div>
-	</div>
-	<!-- /END SECTION HEADER -->
-	
-	
-	<div class="row">
-		
-		<!-- FEATURES LEFT -->
-		<div class="col-md-4 col-sm-4 features-left wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- FEATURE -->
-			<div class="feature">
-				
-				<!-- ICON -->
-				<div class="icon-container">
-					<div class="icon">
-						<i class="icon_map_alt"></i>
-					</div>
-				</div>
-				
-				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">Responsive Design</h4>
-					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-					</p>
-				</div>
-				
-			</div>
-			<!-- /END SINGLE FEATURE -->
-			
-			<!-- FEATURE -->
-			<div class="feature">
-				
-				<!-- ICON -->
-				<div class="icon-container">
-					<div class="icon">
-						<i class="icon_gift_alt"></i>
-					</div>
-				</div>
-				
-				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">Bootstrap 3.1</h4>
-					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-					</p>
-				</div>
-				
-			</div>
-			<!-- /END SINGLE FEATURE -->
-			
-			<!-- FEATURE -->
-			<div class="feature">
-				
-				<!-- ICON -->
-				<div class="icon-container">
-					<div class="icon">
-						<i class="icon_tablet"></i>
-					</div>
-				</div>
-				
-				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">Cross-Browser Support</h4>
-					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magn.
-					</p>
-				</div>
-				
-			</div>
-			<!-- /END SINGLE FEATURE -->
-			
-		</div>
-		<!-- /END FEATURES LEFT -->
-		
-		<!-- PHONE IMAGE -->
-		<div class="col-md-4 col-sm-4">
-			<div class="phone-image wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-				<img src="/static/images/single-iphone.png" alt="">
-			</div>
-		</div>
-		
-		<!-- FEATURES RIGHT -->
-		<div class="col-md-4 col-sm-4 features-right wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- FEATURE -->
-			<div class="feature">
-				
-				<!-- ICON -->
-				<div class="icon-container">
-					<div class="icon">
-						<i class="icon_genius"></i>
-					</div>
-				</div>
-				
-				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">360+ Icon Fonts</h4>
-					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-					</p>
-				</div>
-				
-			</div>
-			<!-- /END SINGLE FEATURE -->
-			
-			<!-- FEATURE -->
-			<div class="feature">
-				
-				<!-- ICON -->
-				<div class="icon-container">
-					<div class="icon">
-						<i class="icon_lightbulb_alt"></i>
-					</div>
-				</div>
-				
-				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">Creative Design</h4>
-					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-					</p>
-				</div>
-				
-			</div>
-			
-			<!-- /END SINGLE FEATURE -->
-			
-			<!-- FEATURE -->
-			<div class="feature">
-				
-				<!-- ICON -->
-				<div class="icon-container">
-					<div class="icon">
-						<i class="icon_ribbon_alt"></i>
-					</div>
-				</div>
-				
-				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
-					<h4 class="main-color">More Features</h4>
-					<p>
-						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-					</p>
-				</div>
-				
-			</div>
-			<!-- /END SINGLE FEATURE -->
-			
-		</div>
-		<!-- /END FEATURES RIGHT -->
-		
-	</div>
-	<!-- /END ROW -->
-	
-</div>
-<!-- /END CONTAINER -->
-
-</section>
-<!-- /END FEATURES SECTION -->
-
-
-<!-- =========================
-     BRIEF LEFT SECTION 
-============================== -->
-<section class="app-brief grey-bg" id="brief1">
-
-<div class="container">
-	
-	<div class="row">
-		
-		<!-- PHONES IMAGE -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-			<div class="phone-image">
-				<img src="/static/images/2-iphone-left.png" alt="">
-			</div>
-		</div>
-		
-		<!-- RIGHT SIDE WITH BRIEF -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SECTION TITLE -->
-			<h2 class="dark-text">Explain why it's best</h2>
-			
-			<div class="colored-line-left">
-			</div>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</p>
-			
-			<!-- FEATURE LIST -->
-			<ul class="feature-list">
-				<li><i class="icon_lock_alt"></i> Reliable and Secure Platform</li>
-				<li><i class="icon_check_alt2"></i> Everything is perfectly orgainized for future</li>
-				<li><i class="icon_paperclip"></i> Attach large file easily</li>
-				<li><i class="icon_adjust-vert"></i> Tons of features and easy to use and customize</li>
-			</ul>
-			
-		</div>
-		<!-- /END RIGHT BRIEF -->
-		
-	</div>
-	<!-- /END ROW -->
-	
-</div>
-<!-- /END CONTAINER -->
-
-</section>
-<!-- /END SECTION -->
-
-
-<!-- =========================
-     BRIEF RIGHT SECTION 
+     PASSENGER
 ============================== -->
 <section class="app-brief" id="brief2">
 
 <div class="container">
-	
-	<div class="row">
-		
-		<!-- BRIEF -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SECTION TITLE -->
-			<h2 class="dark-text">Great way to describe your app</h2>
-			
-			<div class="colored-line-left">
-			</div>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>
-				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			
-		</div>
-		<!-- /ENDBRIEF -->
-		
-		<!-- PHONES IMAGE -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
-			<div class="phone-image">
-				<img src="/static/images/2-iphone-right.png" alt="">
-			</div>
-		</div>
-		<!-- /END PHONES IMAGE -->
-		
-	</div>
-	<!-- /END ROW -->
-	
+    
+    <div class="row">
+        
+        <!-- BRIEF -->
+        <div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+            
+            <!-- SECTION TITLE -->
+            <h2 class="dark-text">Great way to describe your app</h2>
+            
+            <div class="colored-line-left">
+            </div>
+            
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            
+        </div>
+        <!-- /ENDBRIEF -->
+        
+        <!-- PHONES IMAGE -->
+        <div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+            <div class="phone-image">
+                <img src="/static/images/2-iphone-right.png" alt="">
+            </div>
+        </div>
+        <!-- /END PHONES IMAGE -->
+        
+    </div>
+    <!-- /END ROW -->
+    
 </div>
 <!-- /END CONTAINER -->
 
 </section>
 <!-- /END SECTION -->
 
+<!-- =========================
+     DRIVER
+============================== -->
+<section class="app-brief grey-bg" id="brief1">
 
+<div class="container">
+    
+    <div class="row">
+        
+        <!-- PHONES IMAGE -->
+        <div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+            <div class="phone-image">
+                <img src="/static/images/2-iphone-left.png" alt="">
+            </div>
+        </div>
+        
+        <!-- RIGHT SIDE WITH BRIEF -->
+        <div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+            
+            <!-- SECTION TITLE -->
+            <h2 class="dark-text">Explain why it's best</h2>
+            
+            <div class="colored-line-left">
+            </div>
+            
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            
+            <!-- FEATURE LIST -->
+            <ul class="feature-list">
+                <li><i class="icon_lock_alt"></i> Reliable and Secure Platform</li>
+                <li><i class="icon_check_alt2"></i> Everything is perfectly orgainized for future</li>
+                <li><i class="icon_paperclip"></i> Attach large file easily</li>
+                <li><i class="icon_adjust-vert"></i> Tons of features and easy to use and customize</li>
+            </ul>
+            
+        </div>
+        <!-- /END RIGHT BRIEF -->
+        
+    </div>
+    <!-- /END ROW -->
+    
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END SECTION -->
 
 <!-- =========================
      SERVICES
@@ -507,11 +323,6 @@
 		<!-- SECTION TITLE -->
 		<h2 class="dark-text">It's Awesome</h2>
 		
-		<div class="colored-line">
-		</div>
-		<div class="section-description">
-			List your app features and all the details Lorem ipsum dolor kadr
-		</div>
 		<div class="colored-line">
 		</div>
 		
@@ -587,13 +398,57 @@
 <!-- /END FEATURES SECTION -->
 
 <!-- =========================
+     AVAILABILITY
+============================== -->
+<section class="availability" id="availability-section">
+
+<div class="color-overlay">
+    
+    <!-- SECTION HEADER -->
+    <div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+        
+        <!-- SECTION TITLE -->
+        <h2>Availability</h2>
+        
+        <div class="white-line">
+        </div>
+        <div class="section-description">
+            List your app features and all the details Lorem ipsum dolor kadr
+        </div>
+        <div class="white-line">
+        </div>
+        
+    </div>
+
+    <!-- /END SECTION HEADER -->
+    <div class="container wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+    </div>
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END AVAILABILITY SECTION -->
+
+<!-- =========================
      TEAM 
 ============================== -->
 <section class="testimonials" id="team-section">
 
-<div class="color-overlay">
+<div class="container">
     
-    <div class="container wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+    <!-- SECTION HEADER -->
+    <div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+        
+        <!-- SECTION TITLE -->
+        <h2>Team</h2>
+        
+        <div class="colored-line">
+        </div>
+    </div>
+
+    <!-- /END SECTION HEADER -->
+    <div class="row wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
         
         <!-- FEEDBACKS -->
         <div id="feedbacks" class="owl-carousel owl-theme">
@@ -684,192 +539,6 @@
 
 </section>
 <!-- /END TEAM SECTION -->
-
-
-<!-- =========================
-     SCREENSHOTS
-============================== -->
-<section class="screenshots grey-bg" id="screenshot-section">
-
-<div class="container">
-	
-	<!-- SECTION HEADER -->
-	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-		
-		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Screenshots</h2>
-		
-		<div class="colored-line">
-		</div>
-		<div class="section-description">
-			List your app features and all the details Lorem ipsum dolor kadr
-		</div>
-		<div class="colored-line">
-		</div>
-		
-	</div>
-	<!-- /END SECTION HEADER -->
-	
-	<div class="row wow bounceIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-		
-		<div id="screenshots" class="owl-carousel owl-theme">
-			
-			<div class="shot">
-				<a href="/static/images/screenshots/1.jpg" data-lightbox-gallery="screenshots-gallery"><img src="/static/images/screenshots/1.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="/static/images/screenshots/3.jpg" data-lightbox-gallery="screenshots-gallery"><img src="/static/images/screenshots/3.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="/static/images/screenshots/2.jpg" data-lightbox-gallery="screenshots-gallery"><img src="/static/images/screenshots/2.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="/static/images/screenshots/4.jpg" data-lightbox-gallery="screenshots-gallery"><img src="/static/images/screenshots/4.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="/static/images/screenshots/1.jpg" data-lightbox-gallery="screenshots-gallery"><img src="/static/images/screenshots/1.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="/static/images/screenshots/3.jpg" data-lightbox-gallery="screenshots-gallery"><img src="/static/images/screenshots/3.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="/static/images/screenshots/2.jpg" data-lightbox-gallery="screenshots-gallery"><img src="/static/images/screenshots/2.jpg" alt="Screenshot"></a>
-			</div>
-			
-			<div class="shot">
-				<a href="/static/images/screenshots/4.jpg" data-lightbox-gallery="screenshots-gallery"><img src="/static/images/screenshots/4.jpg" alt="Screenshot"></a>
-			</div>
-			
-		</div>
-		<!-- /END SCREENSHOTS -->
-		
-	</div>
-	<!-- /END ROW -->
-	
-</div>
-<!-- /END CONTAINER -->
-
-</section>
-<!-- /END SCREENSHOTS SECTION -->
-
-
-<!-- =========================
-     PRICING TABLE | Added on version 1.7   
-============================== -->
-<!--<section class="packages" id="packages">-->
-
-<!--<div class="container">-->
-	
-	<!--[> SECTION HEADER <]-->
-	<!--<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">-->
-		
-		<!--[> SECTION TITLE <]-->
-		<!--<h2 class="dark-text">Affordable Packages</h2>-->
-		<!--<div class="colored-line">-->
-		<!--</div>-->
-		
-		<!--<div class="section-description">-->
-			 <!--List your app features and all the details Lorem ipsum dolor kadr-->
-		<!--</div>-->
-		
-		<!--<div class="colored-line">-->
-		<!--</div>-->
-	<!--</div>-->
-	<!--[> /END SECTION HEADER <]-->
-	
-    <!--<div class="row">-->
-		
-		<!--[> SINGLE PACKACGE <]-->
-		<!--<div class="col-md-4 col-sm-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">-->
-			
-			<!--<div class="single-package">-->
-				
-				<!--<h3 class="package-heading main-color">-->
-				<!--Personal </h3>-->
-				
-				<!--<div class="price">-->
-					<!--<h2><span class="sign">$</span>50 <span class="month">/month</span></h2>-->
-				<!--</div>-->
-				
-				<!--<ul class="package-feature">-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Unlimited Photos</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Secure Online Transfer</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Unlimited Styles</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Cloud Storage</li>-->
-					<!--<li><span class="main-color icon_close_alt2"></span>24/7 Customer Service</li>-->
-					<!--<li><span class="main-color icon_close_alt2"></span>Automatic Backup</li>-->
-				<!--</ul>-->
-				
-			<!--</div>-->
-		<!--</div>-->
-		<!--[> /END SINGLE PACKACGE <]-->
-		
-		<!--[> SINGLE PACKACGE <]-->
-		<!--<div class="col-md-4 col-sm-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">-->
-			
-			<!--<div class="single-package">-->
-				
-				<!--<h3 class="package-heading main-color">-->
-				<!--Business </h3>-->
-				
-				<!--<div class="price">-->
-					<!--<div class="color-bg">-->
-						<!--<h2><span class="sign">$</span>75 <span class="month">/month</span></h2>-->
-					<!--</div>-->
-				<!--</div>-->
-				
-				<!--<ul class="package-feature">-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Unlimited Photos</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Secure Online Transfer</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Unlimited Styles</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Cloud Storage</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>24/7 Customer Service</li>-->
-					<!--<li><span class="main-color icon_close_alt2"></span>Automatic Backup</li>-->
-				<!--</ul>-->
-			<!--</div>-->
-		<!--</div>-->
-		<!--[> /END SINGLE PACKACGE <]-->
-		
-		<!--[> SINGLE PACKACGE <]-->
-		<!--<div class="col-md-4 col-sm-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">-->
-			
-			<!--<div class="single-package">-->
-				
-				<!--<h3 class="package-heading main-color">-->
-				<!--Ultimate </h3>-->
-				
-				<!--<div class="price">-->
-					<!--<h2><span class="sign">$</span>99 <span class="month">/month</span></h2>-->
-				<!--</div>-->
-				
-				<!--<ul class="package-feature">-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Unlimited Photos</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Secure Online Transfer</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Unlimited Styles</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Cloud Storage</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>24/7 Customer Service</li>-->
-					<!--<li><span class="main-color icon_check_alt2"></span>Automatic Backup</li>-->
-				<!--</ul>-->
-			<!--</div>-->
-		<!--</div>-->
-		<!--[> /END SINGLE PACKACGE <]-->
-		
-	<!--</div>-->
-	<!--[> /END ROW <]-->
-	
-<!--</div>-->
-<!--[> /END CONTAINER <]-->
-<!--</section>-->
-<!-- /END PRICING TABLE SECTION -->
-
-
-
 
 <!-- =========================
      DOWNLOAD NOW 
