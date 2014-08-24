@@ -27,10 +27,22 @@ msgid "home"
 msgstr "Home"
 
 msgid "what_it_is"
-msgstr "What it is"
+msgstr "Cos'è"
 
 msgid "what_it_is_desc"
 msgstr "Un nuovo modo di muoversi in città. Social, divertente e gratis. L'autostop 2.0!<br/></br/>Unisciti alla community e scambia passaggi in macchina, fai nuovi amici e contribuisci a ridurre l'inquinamento ed il traffico!"
+
+msgid "passenger"
+msgstr "Passeggero"
+
+msgid "driver"
+msgstr "Guidatore"
+
+msgid "availability"
+msgstr "Disponibilità"
+
+msgid "team"
+msgstr "Team"
 
 msgid "giovanni_role"
 msgstr "CEO &amp; co-founder"
@@ -49,3 +61,12 @@ msgstr "Creative &amp; co-founder"
 
 msgid "gabriele_bio"
 msgstr "Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness."
+
+msgid "download_app_on"
+msgstr "Scarica la app da"
+
+msgid "subscribe_now"
+msgstr "Registrati alla Newsletter!"
+
+msgid "your_email"
+msgstr "La tua Email"

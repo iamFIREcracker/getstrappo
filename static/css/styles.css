@@ -750,8 +750,8 @@ object {
    SECTION:  FOOTER                
 -----------------------------------------*/
 
-footer .contact-box {
-    margin-bottom: 78px;
+footer .logo {
+    margin-top: 78px;
 }
 
 footer .contact-box .contact-button {

@@ -106,11 +106,11 @@
 				<ul class="nav navbar-nav navbar-right main-navigation">
                     <li><a href="#home">{{ _('home') }}</a></li>
                     <li><a href="#what">{{ _('what_it_is') }}</a></li>
-					<li><a href="#brief2">Passenger</a></li>
-                    <li><a href="#brief1">Driver</a></li>
+                    <li><a href="#brief2">{{ _('passenger') }}</a></li>
+                    <li><a href="#brief1">{{ _('driver') }}</a></li>
 					<li><a href="#services">Services</a></li>
-                    <li><a href="#availability-section">Availability</a></li>
-                    <li><a href="#team-section">Team</a></li>
+                    <li><a href="#availability">{{ _('availability') }}</a></li>
+                    <li><a href="#team">{{ _('team') }}</a></li>
 					<li><a href="#download">Download</a></li>
 				</ul>
 			</div>
@@ -231,7 +231,7 @@
         <div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
             
             <!-- SECTION TITLE -->
-            <h2 class="dark-text">Great way to describe your app</h2>
+            <h2 class="dark-text">{{ _('passenger') }}</h2>
             
             <div class="colored-line-left">
             </div>
@@ -281,7 +281,7 @@
         <div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
             
             <!-- SECTION TITLE -->
-            <h2 class="dark-text">Explain why it's best</h2>
+            <h2 class="dark-text">{{ _('driver') }}</h2>
             
             <div class="colored-line-left">
             </div>
@@ -400,7 +400,7 @@
 <!-- =========================
      AVAILABILITY
 ============================== -->
-<section class="availability" id="availability-section">
+<section class="availability" id="availability">
 
 <div class="color-overlay">
     
@@ -408,7 +408,7 @@
     <div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
         
         <!-- SECTION TITLE -->
-        <h2>Availability</h2>
+        <h2>{{ _('availability') }}</h2>
         
         <div class="white-line">
         </div>
@@ -433,7 +433,7 @@
 <!-- =========================
      TEAM 
 ============================== -->
-<section class="testimonials" id="team-section">
+<section class="testimonials" id="team">
 
 <div class="container">
     
@@ -441,7 +441,7 @@
     <div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
         
         <!-- SECTION TITLE -->
-        <h2>Team</h2>
+        <h2>{{ _('team') }}</h2>
         
         <div class="colored-line">
         </div>
@@ -553,7 +553,7 @@
 				
 				<!-- DOWNLOAD BUTTONS AREA -->
 				<div class="download-container">
-					<h2 class=" wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Download the app on</h2>
+                    <h2 class=" wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">{{ _('download_app_on') }}</h2>
 					
 					<!-- BUTTONS -->
 					<div class="buttons wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
@@ -571,7 +571,7 @@
 				<!-- SUBSCRIPTION FORM WITH TITLE -->
 				<div class="subscription-form-container">
 					
-					<h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Subscribe Now!</h2>
+                    <h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">{{ _('subscribe_now') }}</h2>
 					
 					<!-- =====================
 					     MAILCHIMP FORM STARTS 
@@ -584,7 +584,7 @@
 						<h4 class="subscription-error"></h4>
 						
 						<!-- EMAIL INPUT BOX -->
-						<input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
+                        <input type="email" name="email" id="subscriber-email" placeholder="{{ _('your_email') }}" class="form-control input-box">
 						
 						<!-- SUBSCRIBE BUTTON -->
 						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
@@ -592,27 +592,6 @@
 					</form>
 					<!-- /END MAILCHIMP FORM STARTS -->
 					
-					<!-- =====================
-					     LOCAL TXT FORM STARTS 
-					     ===================== -->
-					     
-					<!-- THIS FORM IS COMMENTED TO HIDE 
-					
-					<form class="subscription-form form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" id="subscribe" role="form">
-						
-						<h4 class="subscription-success"><i class="icon_check"></i> Thank you! We will notify you soon.</h4>
-						<h4 class="subscription-error">Something Wrong!</h4>
-						
-						<input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
-						
-						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
-						
-					</form>
-					
-					-->
-					
-					<!-- / LOCAL TXT SAVING FORM END -->
-
 				</div>
                 <!-- END OF SUBSCRIPTION FORM WITH TITLE -->
 				
@@ -638,68 +617,18 @@
 
 <div class="container">
 	
-	<!--<div class="contact-box wow rotateIn animated" data-wow-offset="10" data-wow-duration="1.5s">-->
-		
-		<!--[> CONTACT BUTTON TO EXPAND OR COLLAPSE FORM <]-->
-		
-		<!--<a class="btn contact-button expand-form expanded"><i class="icon_mail_alt"></i></a>-->
-		
-		<!--[> EXPANDED CONTACT FORM <]-->
-		<!--<div class="row expanded-contact-form">-->
-			
-			<!--<div class="col-md-8 col-md-offset-2">-->
-				
-				<!--[> FORM <]-->
-				<!--<form class="contact-form" id="contact" role="form">-->
-					
-					<!--[> IF MAIL SENT SUCCESSFULLY <]-->
-					<!--<h4 class="success">-->
-						<!--<i class="icon_check"></i> Your message has been sent successfully.-->
-					<!--</h4>-->
-					
-					<!--[> IF MAIL SENDING UNSUCCESSFULL <]-->
-					<!--<h4 class="error">-->
-						<!--<i class="icon_error-circle_alt"></i> E-mail must be valid and message must be longer than 1 character.-->
-					<!--</h4>-->
-					
-					<!--<div class="col-md-6">-->
-						<!--<input class="form-control input-box" id="name" type="text" name="name" placeholder="Your Name">-->
-					<!--</div>-->
-					
-					<!--<div class="col-md-6">-->
-						<!--<input class="form-control input-box" id="email" type="email" name="email" placeholder="Your Email">-->
-					<!--</div>-->
-					
-					<!--<div class="col-md-12">-->
-						<!--<input class="form-control input-box" id="subject" type="text" name="subject" placeholder="Subject">-->
-						<!--<textarea class="form-control textarea-box" id="message" rows="8" placeholder="Message"></textarea>-->
-					<!--</div>-->
-					
-					<!--<button class="btn btn-primary standard-button2 ladda-button" type="submit" id="submit" name="submit" data-style="expand-left">Send Message</button>-->
-					
-				<!--</form>-->
-				<!--[> /END FORM <]-->
-				
-			<!--</div>-->
-			
-		<!--</div>-->
-		<!--[> /END EXPANDED CONTACT FORM <]-->
-		
-	<!--</div>-->
-	<!-- /END CONTACT BOX -->
-	
 	<!-- LOGO -->
-	<img src="/static/images/logo-black.png" alt="LOGO" class="responsive-img">
+	<img src="/static/images/logo-black.png" alt="LOGO" class="logo responsive-img">
 	
 	<!-- SOCIAL ICONS -->
 	<ul class="social-icons">
-		<li><a href=""><i class="social_facebook_square"></i></a></li>
-		<li><a href=""><i class="social_twitter_square"></i></a></li>
-		<li><a href=""><i class="social_pinterest_square"></i></a></li>
-		<li><a href=""><i class="social_googleplus_square"></i></a></li>
+		<li><a href="https://www.facebook.com/strappoapp"><i class="social_facebook_square"></i></a></li>
+		<li><a href="https://twitter.com/strappoapp"><i class="social_twitter_square"></i></a></li>
+		<!--<li><a href=""><i class="social_pinterest_square"></i></a></li>-->
+		<!--<li><a href=""><i class="social_googleplus_square"></i></a></li>-->
 		<li><a href=""><i class="social_instagram_square"></i></a></li>
-		<li><a href=""><i class="social_dribbble_square"></i></a></li>
-		<li><a href=""><i class="social_flickr_square"></i></a></li>
+		<!--<li><a href=""><i class="social_dribbble_square"></i></a></li>-->
+		<!--<li><a href=""><i class="social_flickr_square"></i></a></li>-->
 	</ul>
 	
 	<!-- COPYRIGHT TEXT -->
