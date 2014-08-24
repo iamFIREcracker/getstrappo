@@ -23,6 +23,15 @@ msgstr "Available on App Store and Play Store"
 msgid "download_app"
 msgstr "Download App"
 
+msgid "home"
+msgstr "Home"
+
+msgid "what_it_is"
+msgstr "What it is"
+
+msgid "what_it_is_desc"
+msgstr "Un nuovo modo di muoversi in città. Social, divertente e gratis. L'autostop 2.0!<br/></br/>Unisciti alla community e scambia passaggi in macchina, fai nuovi amici e contribuisci a ridurre l'inquinamento ed il traffico!"
+
 msgid "giovanni_role"
 msgstr "CEO &amp; co-founder"
 
