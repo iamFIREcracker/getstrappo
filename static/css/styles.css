@@ -346,12 +346,12 @@ header .only-logo .navbar .navbar-header {
 
 header .intro-section {
     margin: auto;
-    padding-top: 30%;
+    padding-top: 15%;
 }
 
 header .intro-section .intro {
     color: #ffffff;
-    margin-bottom: 36px;
+    margin-bottom: 100px;
 }
 
 header .intro-section h5 {
@@ -458,6 +458,11 @@ header .intro-section .buttons {
 	top: 0px;
 	position: absolute;
 }
+
+.phone-screen .owl-controls {
+	margin-top: 80px;
+}
+
 
 .app-brief .left-align {
     text-align: left;
