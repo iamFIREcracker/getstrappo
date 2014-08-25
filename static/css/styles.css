@@ -428,7 +428,6 @@ header .intro-section .buttons {
     width: 100%;
 }
 
-
 /*---------------------------------------
    SECTION:  BRIEF                 
 -----------------------------------------*/
@@ -450,6 +449,14 @@ header .intro-section .buttons {
 
 .app-brief .phone-image img {
     width: 100%;
+}
+
+.phone-screen {
+	max-width: 195px;
+	margin-top: 72px;
+	margin-left: 78px;
+	top: 0px;
+	position: absolute;
 }
 
 .app-brief .left-align {
