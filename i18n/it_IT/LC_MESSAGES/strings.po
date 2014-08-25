@@ -39,22 +39,22 @@ msgid "driver"
 msgstr "Guidatore"
 
 msgid "highlights_ride_free_title"
-msgstr "No ticket to ride"
+msgstr "Gratis!"
 
 msgid "highlights_ride_free_text"
-msgstr "For a limited time Strappo will be free to all passengers. Yes, free as in beer!"
+msgstr "Ancora per un tempo limitato Strappo continuerà ad essere gratis per tutti i passeggeri. Avete capito bene!"
 
 msgid "highlights_community_title"
-msgstr "Come for the price, stay for the company"
+msgstr "Aggiungi un posto in macchina, che c'è un amico in più"
 
 msgid "highlights_community_text"
-msgstr "Strappo is a community of friendly and helpful people, who want to make their city more livable. Join us and make new friends!"
+msgstr "Strappo è una comunità di persone amichevoli e generose, che vogliono rendere la nostra città più divertente e vivibile. Unisciti a noi e fai nuove amicizie!"
 
 msgid "highlights_environment_title"
-msgstr "We love the environment"
+msgstr "Amiamo l'ambiente"
 
 msgid "highlights_environment_text"
-msgstr "Look around, how many cars do you see with just the driver? 69% of Italians drive to work, but only 4% rides as a passenger. For every ride you share, you help reducing traffic and pollution!"
+msgstr "Guardati intorno, quante macchine vedi con solo il guidatore a bordo? Il 69% degli italiani guida per andare a lavoro, ma solo il 4% sale in macchina da passeggero. Per ogni strappo che dai, aiuti a ridurre traffico ed inquinamento!"
 
 msgid "availability"
 msgstr "Disponibilità"
