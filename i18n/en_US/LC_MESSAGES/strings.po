@@ -38,6 +38,24 @@ msgstr "Passenger"
 msgid "driver"
 msgstr "Driver"
 
+msgid "highlights_ride_free_title"
+msgstr "No ticket to ride"
+
+msgid "highlights_ride_free_text"
+msgstr "For a limited time Strappo will be free to all passengers. Yes, free as in beer."
+
+msgid "highlights_community_title"
+msgstr "Come for the price, stay for the company"
+
+msgid "highlights_community_text"
+msgstr "Strappo is a community of friendly and helpful people, who want to make their city more livable. Join us and make new friends!"
+
+msgid "highlights_environment_title"
+msgstr "We love the environment"
+
+msgid "highlights_environment_text"
+msgstr "Look around, how many cars do you see with just the driver? For every ride you share, you help reducing traffic and pollution!"
+
 msgid "availability"
 msgstr "Availability"
 
