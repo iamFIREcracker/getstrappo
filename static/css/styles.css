@@ -420,13 +420,26 @@ header .intro-section .buttons {
 }
 
 .features .phone-image {
-    max-width: 350px;
+    max-width: 450px;
     margin: auto;
 }
 
 .features .phone-image img {
     width: 100%;
 }
+
+.features .phone-image .phone-screen {
+    max-width: 252px;
+    margin-top: 91px;
+    margin-left: 100px;
+    top: 0px;
+    position: absolute;
+}
+
+.features .phone-image .phone-screen .owl-controls {
+    margin-top: 110px;
+}
+
 
 /*---------------------------------------
    SECTION:  BRIEF                 
@@ -442,7 +455,7 @@ header .intro-section .buttons {
 }
 
 .app-brief .phone-image {
-    max-width: 350px;
+    max-width: 450px;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -450,19 +463,6 @@ header .intro-section .buttons {
 .app-brief .phone-image img {
     width: 100%;
 }
-
-.phone-screen {
-	max-width: 195px;
-	margin-top: 72px;
-	margin-left: 78px;
-	top: 0px;
-	position: absolute;
-}
-
-.phone-screen .owl-controls {
-	margin-top: 80px;
-}
-
 
 .app-brief .left-align {
     text-align: left;
