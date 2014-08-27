@@ -51,7 +51,7 @@ msgid "passenger_step3_title"
 msgstr "3) Enjoy the ride!"
 
 msgid "passenger_step1"
-msgstr "Input your preferred pick-up and drop-off locations and number of seats."
+msgstr "Input your preferred pick-up and drop-off locations and number of friends you are hanging out with."
 
 msgid "passenger_step2"
 msgstr "Wait for drivers to respond to your request. Pick one and you're good to go! You can even call the driver to better arrange the trip beforehand."
