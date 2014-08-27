@@ -351,6 +351,7 @@ header .intro-section {
 
 header .intro-section .intro {
     color: #ffffff;
+    margin: auto;
     margin-bottom: 100px;
 }
 
