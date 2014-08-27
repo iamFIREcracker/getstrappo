@@ -48,7 +48,7 @@ msgid "highlights_community_title"
 msgstr "Aggiungi un posto in macchina, che c'è un amico in più"
 
 msgid "highlights_community_text"
-msgstr "Strappo è una comunità di persone amichevoli e generose, che vogliono rendere la nostra città più divertente e vivibile. Unisciti a noi e fai nuove amicizie!"
+msgstr "Strappo è una comunità di persone amichevoli, che vogliono rendere la nostra città più divertente e vivibile. Unisciti a noi e fai nuove amicizie!"
 
 msgid "highlights_environment_title"
 msgstr "Amiamo l'ambiente"

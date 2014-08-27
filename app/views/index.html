@@ -219,6 +219,140 @@
 </section>
 <!-- /END SECTION -->
 
+
+
+
+<!-- =========================
+     PASSENGER 
+============================== -->
+<section class="features" id="features" id="features">
+
+<div class="container">	
+	
+	<div class="row">	
+		
+        <!-- PHONES IMAGE -->
+        <div class="col-md-5 col-sm-5 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<div class="phone-image">
+				<img src="/static/images/single-iphone.png" alt="">
+				<div id="passenger-screenshots" class="owl-carousel owl-theme phone-screen">
+	                <div>
+    	                <img src="/static/images/passenger/1.png" alt="">
+        	        </div>
+
+            	    <div>
+                	    <img src="/static/images/passenger/2.png" alt="">
+                	</div>
+
+                	<div>
+                    	<img src="/static/images/passenger/3.png" alt="">
+                	</div>
+           		</div>
+			</div>
+
+        </div>
+        <!-- /END PHONES IMAGE -->
+		
+		<!-- FEATURES RIGHT -->
+		<div class="col-md-7 col-sm-7 features-right wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+		
+		    <!-- SECTION TITLE -->
+            <h2 class="dark-text">{{ _('passenger') }}</h2>
+            
+            <div class="colored-line-left">
+            </div>
+            <br>
+            <p>
+                {{ _('passenger_text') }}
+            </p>
+            <br>
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_pencil-edit"></i>
+					</div>
+				</div>
+				
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">1) Enter your trip details</h4>
+					<p>
+						 {{ _('passenger_step1') }}
+					</p>
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_check_alt2"></i>
+					</div>
+				</div>
+				
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">2) Choose your driver</h4>
+					<p>
+						 {{ _('passenger_step2') }}
+					</p>
+				</div>
+				
+			</div>
+			
+			<!-- /END SINGLE FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_target"></i>
+					</div>
+				</div>
+				
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">3) Enjoy the ride!</h4>
+					<p>
+						 {{ _('passenger_step3') }}
+					</p>
+				</div>
+				
+			</div>
+			<!-- /END SINGLE FEATURE -->		
+			
+		</div>
+		<!-- /END FEATURES RIGHT -->
+		
+	</div>
+	<!-- /END ROW -->
+	
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END FEATURES SECTION -->
+
+
+
+
+
+
+
+
+
+
 <!-- =========================
      PASSENGER
 ============================== -->
@@ -238,9 +372,16 @@
             </div>
             
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                {{ _('passenger_text') }}
             </p>
+            
+            <!-- FEATURE LIST -->
+            <ul class="feature-list">
+                <li><i class="icon_lock_alt"></i>{{ _('passenger_step1') }}</li>
+                <li><i class="icon_check_alt2"></i>{{ _('passenger_step2') }}</li>
+                <li><i class="icon_paperclip"></i>{{ _('passenger_step3') }}</li>
+                <li><i class="icon_adjust-vert"></i>{{ _('passenger_step4') }}</li>
+            </ul>
             
         </div>
         <!-- /ENDBRIEF -->

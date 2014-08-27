@@ -385,7 +385,7 @@ header .intro-section .buttons {
 
 .features .features-right {
     text-align: left;
-    margin-top: 26px;
+    margin-top: -25px;
     margin-bottom: 80px;
 }
 
@@ -419,7 +419,7 @@ header .intro-section .buttons {
 }
 
 .features .phone-image {
-    max-width: 250px;
+    max-width: 350px;
     margin: auto;
     margin-bottom: 80px;
 }
