@@ -33,10 +33,52 @@ msgid "what_it_is_desc"
 msgstr "Un nuovo modo di muoversi in città. Social, divertente e gratis. L'autostop 2.0!<br/></br/>Unisciti alla community e scambia passaggi in macchina, fai nuovi amici e contribuisci a ridurre l'inquinamento ed il traffico!"
 
 msgid "passenger"
-msgstr "Passeggero"
+msgstr "Prendi uno strappo!"
+
+msgid "passenger_text"
+msgstr "Devi andare in centro? O magari vuoi tornare a casa dal tuo bar preferito? Con Strappo è facile come contare fino a 3!"
+
+msgid "passenger_step1_title"
+msgstr "Richiedi un passaggio"
+
+msgid "passenger_step2_title"
+msgstr "Scegli il tuo guidatore"
+
+msgid "passenger_step3_title"
+msgstr "Buon viaggio!"
+
+msgid "passenger_step1"
+msgstr "Inserisci il tuo indirizzo di partenza, di destinazione e il numero di posti in macchina che ti servono."
+
+msgid "passenger_step2"
+msgstr "Attendi che i guidatori rispondano alla tua richiesta. Scegline uno e sei pronto a partire! Puoi anche chiamare il guidatore per metterti d'accordo sul passaggio."
+
+msgid "passenger_step3"
+msgstr "Il guidatore che hai scelto verrà a prenderti.<br>Una volta a destinazione, ricordati di toccare Fine Passaggio per dare un voto al guidatore (A Strappo la tua opinione è importante!)"
 
 msgid "driver"
-msgstr "Guidatore"
+msgstr "Guida con noi"
+
+msgid "driver_text"
+msgstr "Hai posti in macchina liberi? Diventa un guidatore nella community di Strappo e condividi i tuoi tragitti (e i tuoi costi di gestione auto!)"
+
+msgid "driver_step1_title"
+msgstr "1) Inserisci i tuoi dati"
+
+msgid "driver_step2_title"
+msgstr "2) Offri un passaggio"
+
+msgid "driver_step3_title"
+msgstr "3) Passa a prenderli!"
+
+msgid "driver_step1"
+msgstr "Il tuo numero di telefono ed i dettagli della tua auto permettono al passeggero di contattarti e di riconoscerti al punto di partenza."
+
+msgid "driver_step2"
+msgstr "Passa in rassegna i passeggeri in cerca di un passaggio. Qualcuno vicino a te vuole andare nella tua stessa direzione? Offrigli un posto!"
+
+msgid "driver_step3"
+msgstr "Non appena il passeggero accetta la tua offerta, il viaggio condiviso può iniziare. Una volta a destinazione, potrai dare un voto a i tuoi passeggeri (questo è molto importante per te e per noi!)"
 
 msgid "highlights_ride_free_title"
 msgstr "Gratis!"
