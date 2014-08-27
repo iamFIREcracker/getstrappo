@@ -173,6 +173,15 @@ $(document).ready(function () {
         singleItem: true
     });
 
+    $(".feature").each(function() {
+        var $elem = $(this);
+        var carouselid = $elem.attr('data-carousel');
+        var carouselgoto = $elem.attr('data-carousel-goto');
+
+        $elem.hover(function() {
+            $('#' + carouselid).trigger('owl.goTo', carouselgoto);
+        });
+    });
 
 });
 
