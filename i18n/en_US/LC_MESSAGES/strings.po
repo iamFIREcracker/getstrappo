@@ -11,6 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "html.lang"
+msgstr "en"
+
+msgid "meta.description"
+msgstr "Strappo is a new way of getting around.  It's social, funny, and free!  Hitchhiking 2.0!  Join the community and share your car, find new friends and help reducing traffic and pollution!"
+
+msgid "meta.keywords"
+msgstr "strappo, carsharing, ridesharing, real-time, social, mobile, ios, android"
+
+msgid "meta.author"
+msgstr "Strappo"
+
+
+
 msgid "title"
 msgstr "Strappo - Sharing is carrying"
 
