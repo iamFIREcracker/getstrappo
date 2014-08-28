@@ -30,10 +30,40 @@ msgid "what_it_is"
 msgstr "What it is"
 
 msgid "what_it_is_desc"
-msgstr "Un nuovo modo di muoversi in città. Social, divertente e gratis. L'autostop 2.0!<br/></br/>Unisciti alla community e scambia passaggi in macchina, fai nuovi amici e contribuisci a ridurre l'inquinamento ed il traffico!"
+msgstr "Carsharing has never been so much fun!<br/><br/>No public transport where you're headed? Fire up the app and look for a ride, un guidatore sarà da te presto!<br/><br/>Got empty seats? Why not share them with somebody like you!"
+
+
+
+
+
+msgid "features_navbar"
+msgstr "Features"
 
 msgid "features"
-msgstr "Features"
+msgstr "It's awesome"
+
+msgid "highlights_ride_free_title"
+msgstr "No ticket to ride"
+
+msgid "highlights_ride_free_text"
+msgstr "For a limited time Strappo will be free to all passengers. Yes, free as in beer!"
+
+msgid "highlights_community_title"
+msgstr "Come for the price, stay for the company"
+
+msgid "highlights_community_text"
+msgstr "Strappo is a community of friendly and helpful people, who want to make their city more livable. Join us and make new friends!"
+
+msgid "highlights_environment_title"
+msgstr "We love the environment"
+
+msgid "highlights_environment_text"
+msgstr "Look around, how many cars do you see with just the driver? 69% of Italians drive to work, but only 4% rides as a passenger. For every ride you share, you help reducing traffic and pollution!"
+
+
+
+
+
 
 msgid "passenger"
 msgstr "Catch a strappo!"
@@ -88,32 +118,14 @@ msgstr "Once the passenger accepts your offer, the shared ride can start. At des
 
 
 
-
-msgid "highlights_ride_free_title"
-msgstr "No ticket to ride"
-
-msgid "highlights_ride_free_text"
-msgstr "For a limited time Strappo will be free to all passengers. Yes, free as in beer!"
-
-msgid "highlights_community_title"
-msgstr "Come for the price, stay for the company"
-
-msgid "highlights_community_text"
-msgstr "Strappo is a community of friendly and helpful people, who want to make their city more livable. Join us and make new friends!"
-
-msgid "highlights_environment_title"
-msgstr "We love the environment"
-
-msgid "highlights_environment_text"
-msgstr "Look around, how many cars do you see with just the driver? 69% of Italians drive to work, but only 4% rides as a passenger. For every ride you share, you help reducing traffic and pollution!"
-
-
-
 msgid "availability"
 msgstr "Availability"
 
 msgid "availability_text"
-msgstr "Strappo is at the moment only available in Viareggio, Italy. Sign up for the newsletter or follow us on Facebook, Twitter or Instagram to stay up to date on our next moves!"
+msgstr "Strappo is at the moment only available in Viareggio, Italy.<br>Sign up for the newsletter or follow us on Facebook, Twitter or Instagram to stay up to date on our next moves!"
+
+
+
 
 
 msgid "team"

@@ -106,7 +106,7 @@
 				<ul class="nav navbar-nav navbar-right main-navigation">
                     <li><a href="#home">{{ _('home') }}</a></li>
                     <li><a href="#what">{{ _('what_it_is') }}</a></li>
-                    <li><a href="#services">{{ _('features') }}</a></li>
+                    <li><a href="#features">{{ _('features_navbar') }}</a></li>
                     <li><a href="#brief1">{{ _('passenger') }}</a></li>
                     <li><a href="#brief2">{{ _('driver') }}</a></li>
                     <li><a href="#availability">{{ _('availability') }}</a></li>
@@ -221,9 +221,9 @@
 
 
 <!-- =========================
-     SERVICES
+     FEATURE HIGHLIGHTS
 ============================== -->
-<section class="services" id="services">
+<section class="services" id="features">
 
 <div class="container">
 	
@@ -231,7 +231,7 @@
 	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">It's Awesome</h2>
+		<h2 class="dark-text">{{ _('features') }}</h2>
 		
 		<div class="colored-line">
 		</div>
@@ -597,6 +597,9 @@
     	<div class="image">
             <!-- i class=" icon_quotations"></i -->
             <img src="/static/images/viareggio.jpg" alt="">
+        </div>
+        <div class="name">
+            Viareggio
         </div>
         <div class="section-description col-md-6 col-md-offset-3">
             {{ _('availability_text') }}

@@ -543,6 +543,11 @@ object {
     overflow: hidden;
 }
 
+.availability .name {
+    margin-top: 15px;
+    font-weight: 400;
+}
+
 .availability .section-description {
     margin-top: 40px;
 }
