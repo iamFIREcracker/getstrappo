@@ -35,6 +35,9 @@ msgstr "Cos'è"
 msgid "what_it_is_desc"
 msgstr "Un nuovo modo di muoversi in città. Social, divertente e gratis.<br/><br/>Non ci sono mezzi pubblici dove stai andando? Apri l'app e cerca uno strappo, un guidatore sarà da te presto!<br/><br/>Hai posti liberi in macchina? Perché non dai un passaggio a qualcuno come te! Con Strappo vedi subito chi sta cercando un passaggio e dove vuole andare. Se è sulla tua rotta, perché non passare a prenderlo? Un viaggio in compagnia è più divertente!"
 
+msgid "how_it_works"
+msgstr "Come funziona"
+
 
 
 
