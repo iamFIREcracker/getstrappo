@@ -32,11 +32,11 @@ msgstr "What it is"
 msgid "what_it_is_desc"
 msgstr "Un nuovo modo di muoversi in città. Social, divertente e gratis. L'autostop 2.0!<br/></br/>Unisciti alla community e scambia passaggi in macchina, fai nuovi amici e contribuisci a ridurre l'inquinamento ed il traffico!"
 
-
-
+msgid "features"
+msgstr "Features"
 
 msgid "passenger"
-msgstr "Catch a strappo"
+msgstr "Catch a strappo!"
 
 msgid "passenger_text"
 msgstr "Going downtown? Or perhaps back home from your favorite watering hole? Finding a ride with Strappo is as easy as 1-2-3!"
@@ -66,7 +66,7 @@ msgstr "Got empty seats? Become a strappo driver and share your trip (and your c
 
 
 msgid "driver"
-msgstr "Drive with us"
+msgstr "Sharing is carrying"
 
 msgid "driver_step1_title"
 msgstr "1) Enter your details"
@@ -111,6 +111,10 @@ msgstr "Look around, how many cars do you see with just the driver? 69% of Itali
 
 msgid "availability"
 msgstr "Availability"
+
+msgid "availability_text"
+msgstr "Strappo is at the moment only available in Viareggio, Italy. Sign up for the newsletter or follow us on Facebook, Twitter or Instagram to stay up to date on our next moves!"
+
 
 msgid "team"
 msgstr "Team"

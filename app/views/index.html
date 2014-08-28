@@ -106,9 +106,9 @@
 				<ul class="nav navbar-nav navbar-right main-navigation">
                     <li><a href="#home">{{ _('home') }}</a></li>
                     <li><a href="#what">{{ _('what_it_is') }}</a></li>
+                    <li><a href="#services">{{ _('features') }}</a></li>
                     <li><a href="#brief1">{{ _('passenger') }}</a></li>
                     <li><a href="#brief2">{{ _('driver') }}</a></li>
-					<li><a href="#services">Services</a></li>
                     <li><a href="#availability">{{ _('availability') }}</a></li>
                     <li><a href="#team">{{ _('team') }}</a></li>
 					<li><a href="#download">Download</a></li>
@@ -220,21 +220,128 @@
 <!-- /END SECTION -->
 
 
+<!-- =========================
+     SERVICES
+============================== -->
+<section class="services" id="services">
+
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="dark-text">It's Awesome</h2>
+		
+		<div class="colored-line">
+		</div>
+		
+	</div>
+	<!-- /END SECTION HEADER -->
+	
+	<div class="row">
+		
+		<!-- SINGLE SERVICE -->
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- SERVICE ICON -->
+			<div class="service-icon">
+				<i class="icon_gift"></i>
+			</div>
+			
+			<!-- SERVICE HEADING -->
+			<h3>{{ _('highlights_ride_free_title') }}</h3>
+			
+			<!-- SERVICE DESCRIPTION -->
+			<p>
+				 {{ _('highlights_ride_free_text') }}
+			</p>
+			
+		</div>
+		<!-- /END SINGLE SERVICE -->
+
+		<!-- SINGLE SERVICE -->
+<!-- 
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!~~ SERVICE ICON ~~>
+			<div class="service-icon">
+				<i class="icon_balance"></i>
+			</div>
+			
+			<!~~ SERVICE HEADING ~~>
+			<h3>{{ _('highlights_driver_payout_title') }}</h3>
+			
+			<!~~ SERVICE DESCRIPTION ~~>
+			<p>
+				 {{ _('highlights_driver_payout_text') }}
+		    </p>
+			
+		</div>
+ -->
+		<!-- /END SINGLE SERVICE -->
+		
+		<!-- SINGLE SERVICE -->
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- SERVICE ICON -->
+			<div class="service-icon">
+				<i class="social_share"></i>
+			</div>
+			
+			<!-- SERVICE HEADING -->
+			<h3>{{ _('highlights_community_title') }}</h3>
+			
+			<!-- SERVICE DESCRIPTION -->
+			<p>
+				 {{ _('highlights_community_text') }}
+		    </p>
+			
+		</div>
+		<!-- /END SINGLE SERVICE -->
+		
+		<!-- SINGLE SERVICE -->
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<!-- SERVICE ICON -->
+			<div class="service-icon">
+				<i class="icon_heart"></i>
+			</div>
+			
+			<!-- SERVICE HEADING -->
+			<h3>{{ _('highlights_environment_title') }}</h3>
+			
+			<!-- SERVICE DESCRIPTION -->
+			<p>
+				 {{ _('highlights_environment_text') }}
+		    </p>
+			
+		</div>
+		<!-- /END SINGLE SERVICE -->
+		
+	</div>
+	<!-- /END ROW -->
+	
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END FEATURES SECTION -->
 
 
 <!-- =========================
      PASSENGER 
 ============================== -->
-<section class="features" id="brief1">
+<section class="features grey-bg" id="brief1">
 
 <div class="container">	
 	
 	<div class="row">	
 		
         <!-- PHONES IMAGE -->
-        <div class="col-md-5 col-sm-5 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+        <div class="col-md-5 col-sm-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 
-			<div class="phone-image hidden-xs hidden-sm">
+			<div class="phone-image hidden-xs">
 				<img src="/static/images/single-iphone.png" alt="">
 				<div id="passenger-screenshots" class="owl-carousel owl-theme phone-screen">
 	                <div>
@@ -255,7 +362,7 @@
         <!-- /END PHONES IMAGE -->
 		
 		<!-- FEATURES RIGHT -->
-		<div class="col-md-7 col-sm-7 features-right wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<div class="col-md-7 col-sm-7 col-sm-6 features-right wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 		
 		    <!-- SECTION TITLE -->
             <h2 class="dark-text">{{ _('passenger') }}</h2>
@@ -295,7 +402,7 @@
 				<!-- ICON -->
 				<div class="icon-container hidden-xs hidden-sm">
 					<div class="icon">
-						<i class="icon_check_alt2"></i>
+						<i class="icon_id"></i>
 					</div>
 				</div>
 				
@@ -348,7 +455,7 @@
 <!-- =========================
      DRIVER 
 ============================== -->
-<section class="features grey-bg" id="brief2">
+<section class="features" id="brief2">
 
 <div class="container">	
 	
@@ -363,9 +470,9 @@
             <div class="colored-line-left">
             </div>
             <br>
-            <h4 class="dark-text">
+            <p>
                 {{ _('driver_text') }}
-            </h4>
+            </p>
             <br>
 			
 			<!-- FEATURE -->
@@ -468,93 +575,6 @@
 
 
 <!-- =========================
-     SERVICES
-============================== -->
-<section class="services" id="services">
-
-<div class="container">
-	
-	<!-- SECTION HEADER -->
-	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-		
-		<!-- SECTION TITLE -->
-		<h2 class="dark-text">It's Awesome</h2>
-		
-		<div class="colored-line">
-		</div>
-		
-	</div>
-	<!-- /END SECTION HEADER -->
-	
-	<div class="row">
-		
-		<!-- SINGLE SERVICE -->
-		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SERVICE ICON -->
-			<div class="service-icon">
-				<i class="icon_gift"></i>
-			</div>
-			
-			<!-- SERVICE HEADING -->
-			<h3>{{ _('highlights_ride_free_title') }}</h3>
-			
-			<!-- SERVICE DESCRIPTION -->
-			<p>
-				 {{ _('highlights_ride_free_text') }}
-			</p>
-			
-		</div>
-		<!-- /END SINGLE SERVICE -->
-		
-		<!-- SINGLE SERVICE -->
-		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SERVICE ICON -->
-			<div class="service-icon">
-				<i class="social_share"></i>
-			</div>
-			
-			<!-- SERVICE HEADING -->
-			<h3>{{ _('highlights_community_title') }}</h3>
-			
-			<!-- SERVICE DESCRIPTION -->
-			<p>
-				 {{ _('highlights_community_text') }}
-		    </p>
-			
-		</div>
-		<!-- /END SINGLE SERVICE -->
-		
-		<!-- SINGLE SERVICE -->
-		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<!-- SERVICE ICON -->
-			<div class="service-icon">
-				<i class="icon_heart"></i>
-			</div>
-			
-			<!-- SERVICE HEADING -->
-			<h3>{{ _('highlights_environment_title') }}</h3>
-			
-			<!-- SERVICE DESCRIPTION -->
-			<p>
-				 {{ _('highlights_environment_text') }}
-		    </p>
-			
-		</div>
-		<!-- /END SINGLE SERVICE -->
-		
-	</div>
-	<!-- /END ROW -->
-	
-</div>
-<!-- /END CONTAINER -->
-
-</section>
-<!-- /END FEATURES SECTION -->
-
-<!-- =========================
      AVAILABILITY
 ============================== -->
 <section class="availability" id="availability">
@@ -568,17 +588,19 @@
         <h2>{{ _('availability') }}</h2>
         
         <div class="white-line">
-        </div>
-        <div class="section-description">
-            List your app features and all the details Lorem ipsum dolor kadr
-        </div>
-        <div class="white-line">
-        </div>
-        
+        </div>        
     </div>
 
     <!-- /END SECTION HEADER -->
-    <div class="container wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+    <div class="container">        
+    
+    	<div class="image">
+            <!-- i class=" icon_quotations"></i -->
+            <img src="/static/images/viareggio.jpg" alt="">
+        </div>
+        <div class="section-description col-md-6 col-md-offset-3">
+            {{ _('availability_text') }}
+        </div>
 
     </div>
 </div>

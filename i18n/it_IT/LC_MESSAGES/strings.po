@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "title"
-msgstr "Strappo - viva la topa"
+msgstr "Strappo - Social Carsharing"
 
 msgid "intro"
 msgstr "Your friends, your car, your city."
@@ -31,6 +31,9 @@ msgstr "Cos'è"
 
 msgid "what_it_is_desc"
 msgstr "Un nuovo modo di muoversi in città. Social, divertente e gratis. L'autostop 2.0!<br/></br/>Unisciti alla community e scambia passaggi in macchina, fai nuovi amici e contribuisci a ridurre l'inquinamento ed il traffico!"
+
+msgid "features"
+msgstr "Features"
 
 msgid "passenger"
 msgstr "Prendi uno strappo!"
@@ -86,6 +89,12 @@ msgstr "Gratis!"
 msgid "highlights_ride_free_text"
 msgstr "Ancora per un tempo limitato Strappo continuerà ad essere gratis per tutti i passeggeri. Avete capito bene!"
 
+msgid "highlights_driver_payout_title"
+msgstr "Guida con strappo e risparmia!"
+
+msgid "highlights_driver_payout_text"
+msgstr "Sai che i costi di esercizio della tua auto sono in media 4 €* per 10 km? Dai uno Strappo ad un passeggero e risparmia il 50%! Due passeggeri? Risparmi il 67%!"
+
 msgid "highlights_community_title"
 msgstr "Aggiungi un posto in macchina, che c'è un amico in più"
 
@@ -100,6 +109,9 @@ msgstr "Guardati intorno, quante macchine vedi con solo il guidatore a bordo? Il
 
 msgid "availability"
 msgstr "Disponibilità"
+
+msgid "availability_text"
+msgstr "Strappo è per il momento disponibile solo a Viareggio. Iscriviti alla newsletter o seguici su Facebook, Twitter o Instagram per rimanere aggiornato sulle nostre prossime mosse!"
 
 msgid "team"
 msgstr "Team"

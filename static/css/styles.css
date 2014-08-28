@@ -529,6 +529,24 @@ object {
     padding-bottom: 110px;
 }
 
+.availability .image {
+    font-size: 24px;
+    border: 2px solid transparent;
+    -webkit-box-shadow: 0px 0px 0px 2px #ffffff;
+            box-shadow: 0px 0px 0px 2px #ffffff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    margin: auto;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.availability .section-description {
+    margin-top: 40px;
+}
+
 
 /*---------------------------------------
    SECTION:  TESTIMONIALS
