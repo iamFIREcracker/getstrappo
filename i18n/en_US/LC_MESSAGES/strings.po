@@ -88,47 +88,52 @@ msgstr "Catch a strappo!"
 msgid "passenger_text"
 msgstr "Going downtown? Or perhaps back home from your favorite watering hole? Finding a ride with Strappo is as easy as 1-2-3!"
 
+
 msgid "passenger_step1_title"
 msgstr "1) Ask for a ride"
-
-msgid "passenger_step2_title"
-msgstr "2) Choose your driver"
-
-msgid "passenger_step3_title"
-msgstr "3) Enjoy the ride!"
 
 msgid "passenger_step1"
 msgstr "Input your preferred pick-up and drop-off locations and number of friends you are hanging out with."
 
+
+msgid "passenger_step2_title"
+msgstr "2) Choose your driver"
 msgid "passenger_step2"
+
 msgstr "Wait for drivers to respond to your request. Pick one and you're good to go! You can even call the driver to better arrange the trip beforehand."
+
+
+msgid "passenger_step3_title"
+msgstr "3) Enjoy the ride!"
 
 msgid "passenger_step3"
 msgstr "Your driver will come pick you up and take you to destination.<br>At destination, remember to tap End Ride and rate your driver (at Strappo your opinion matters!)"
-
-msgid "driver_text"
-msgstr "Got empty seats? Become a strappo driver and share your trip (and your car running costs!)"
-
 
 
 
 msgid "driver"
 msgstr "Sharing is carrying"
 
+msgid "driver_text"
+msgstr "Got empty seats? Become a strappo driver and share your trip (and your car running costs!)"
+
+
 msgid "driver_step1_title"
 msgstr "1) Enter your details"
-
-msgid "driver_step2_title"
-msgstr "2) Offer a seat"
-
-msgid "driver_step3_title"
-msgstr "3) Go pick them up!"
 
 msgid "driver_step1"
 msgstr "Your phone number and car details allow your passengers to contact you and to recognize you at the pick-up point."
 
+
+msgid "driver_step2_title"
+msgstr "2) Offer a seat"
+
 msgid "driver_step2"
 msgstr "Browse the passengers currently looking for a ride. Anybody close to you who's going the same way as you are? Offer them a seat!"
+
+
+msgid "driver_step3_title"
+msgstr "3) Go pick them up!"
 
 msgid "driver_step3"
 msgstr "Once the passenger accepts your offer, the shared ride can start. At destination, you'll be prompted to rate your passengers (this is very important to us!)"
