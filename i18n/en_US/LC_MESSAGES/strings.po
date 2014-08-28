@@ -30,7 +30,7 @@ msgid "what_it_is"
 msgstr "What it is"
 
 msgid "what_it_is_desc"
-msgstr "Carsharing has never been so much fun!<br/><br/>No public transport where you're headed? Fire up the app and look for a ride, un guidatore sarà da te presto!<br/><br/>Got empty seats? Why not share them with somebody like you!"
+msgstr "Carsharing has never been so much fun!<br/><br/>No public transport where you're headed? Fire up the app and look for a ride, a driver will soon drop by!<br/><br/>Got empty seats? Why not share them with somebody like you!"
 
 
 
