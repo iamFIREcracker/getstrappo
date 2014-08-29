@@ -48,11 +48,10 @@ msgid "what_it_is"
 msgstr "Cos'è"
 
 msgid "what_it_is_desc"
-msgstr "Un nuovo modo di muoversi in città. Social, divertente e gratis.<br/><br/>Non ci sono mezzi pubblici dove stai andando? Apri l'app e cerca uno strappo, un guidatore sarà da te presto!<br/><br/>Hai posti liberi in macchina? Perché non dai un passaggio a qualcuno come te! Con Strappo vedi subito chi sta cercando un passaggio e dove vuole andare. Se è sulla tua rotta, perché non passare a prenderlo? Un viaggio in compagnia è più divertente!"
+msgstr "Strappo è un servizio di carsharing 100% italiano, fatto da giovani per giovani e per tutti coloro che vogliono spostarsi in città in maniera economica e rapida (la notte non aspetta nessuno!).<br/>Mentre guidi puoi condividere la tua auto con persone come te! Entra nella community, scambia passaggi in macchina e fai nuove amicizie!<br/>La sharing economy funziona ed è una bomba!"
 
 msgid "how_it_works"
 msgstr "Come funziona"
-
 
 
 
@@ -102,19 +101,17 @@ msgstr "Devi andare in centro? O magari vuoi tornare a casa dal tuo bar preferit
 msgid "passenger_step1_title"
 msgstr "1) Richiedi un passaggio"
 
-msgid "passenger_step1"
-msgstr "Inserisci il tuo indirizzo di partenza, di destinazione e il numero di posti in macchina che ti servono."
-
-
 msgid "passenger_step2_title"
 msgstr "2) Scegli il tuo guidatore"
 
-msgid "passenger_step2"
-msgstr "Attendi che i guidatori rispondano alla tua richiesta. Scegline uno e sei pronto a partire! Puoi anche chiamare il guidatore per metterti d'accordo sul passaggio."
-
-
 msgid "passenger_step3_title"
 msgstr "3) Buon viaggio!"
+
+msgid "passenger_step1"
+msgstr "Inserisci il tuo indirizzo di partenza, di destinazione e il numero di posti in macchina che ti servono."
+
+msgid "passenger_step2"
+msgstr "Attendi che i guidatori rispondano alla tua richiesta. Scegline uno e sei pronto a partire! Puoi anche chiamare il guidatore per metterti d'accordo sul passaggio."
 
 msgid "passenger_step3"
 msgstr "Il guidatore che hai scelto verrà a prenderti.<br>Una volta a destinazione, ricordati di toccare Fine Passaggio per dare un voto al guidatore (A Strappo la tua opinione è importante!)"
@@ -195,7 +192,7 @@ msgid "download_app_on"
 msgstr "Scarica la app da"
 
 msgid "subscribe_now"
-msgstr "Registrati alla Newsletter!"
+msgstr "Iscriviti alla Newsletter!"
 
 msgid "your_email"
 msgstr "La tua Email"
