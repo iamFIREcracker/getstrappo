@@ -638,7 +638,60 @@ object {
     margin-top: 20px;
 }
 
+/*---------------------------------------
+   SECTION:  TEAM           
+-----------------------------------------*/
 
+.team {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background: #ffffff;
+}
+
+.team .team-member {
+    padding-bottom: 60px;
+}
+
+.team .team-member {
+    font-size: 80px;
+}
+
+.team .team-member h3 {
+    margin-top: 20px;
+}
+
+.team .image {
+    font-size: 24px;
+    border: 2px solid transparent;
+    -webkit-box-shadow: 0px 0px 0px 2px #313131;
+            box-shadow: 0px 0px 0px 2px #313131;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    margin: auto;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.team .image img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.team .team-member .bio {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.team .team-member .name {
+    margin-top: 15px;
+}
+
+.team .team-member .role {
+    font-size: 12px;
+}
 
 /*---------------------------------------
    SECTION:  DOWNLOAD                 
