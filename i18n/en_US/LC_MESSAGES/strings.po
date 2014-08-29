@@ -18,7 +18,7 @@ msgid "meta.description"
 msgstr "Strappo is a new way of getting around.  It's social, funny, and free!  Hitchhiking 2.0!  Join the community and share your car, find new friends and help reducing traffic and pollution!"
 
 msgid "meta.keywords"
-msgstr "strappo, carsharing, ridesharing, real-time, social, mobile, ios, android"
+msgstr "strappo, carsharing, ridesharing, real-time, on-demand, social, mobile, ios, android"
 
 msgid "meta.author"
 msgstr "Strappo"
@@ -26,7 +26,7 @@ msgstr "Strappo"
 
 
 msgid "title"
-msgstr "Strappo - Sharing is carrying"
+msgstr "Strappo - Social carsharing"
 
 msgid "intro"
 msgstr "Your friends, your car, your city."
@@ -112,7 +112,7 @@ msgstr "Your driver will come pick you up and take you to destination.<br>At des
 
 
 msgid "driver"
-msgstr "Sharing is carrying"
+msgstr "Drive with us"
 
 msgid "driver_text"
 msgstr "Got empty seats? Become a strappo driver and share your trip (and your car running costs!)"
@@ -172,10 +172,10 @@ msgid "gabriele_bio"
 msgstr "Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness."
 
 msgid "download_app_on"
-msgstr "Download the app on"
+msgstr "Get the app"
 
 msgid "subscribe_now"
-msgstr "Subscribe Now!"
+msgstr "Subscribe to the newsletter"
 
 msgid "your_email"
 msgstr "Your Email"
