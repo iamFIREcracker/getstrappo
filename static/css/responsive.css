@@ -150,7 +150,7 @@ RESPONSIVE FIXES
     }
 
     header .color-overlay {
-        min-height: 480px;
+        min-height: 350px;
     }
 
     header .only-logo .navbar {
@@ -204,6 +204,11 @@ RESPONSIVE FIXES
     html {
         font-size: 60.5%;
     }
+
+    header .color-overlay {
+        min-height: 350px;
+    }
+
 }
 
 
