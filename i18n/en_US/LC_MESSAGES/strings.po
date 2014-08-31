@@ -157,19 +157,19 @@ msgid "giovanni_role"
 msgstr "CEO &amp; co-founder"
 
 msgid "giovanni_bio"
-msgstr "Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness."
+msgstr "Born and raised in Viareggio, just like his two fellow co-founders, Giovanni graduates in Computer Engineering from University of Pisa and then spends 3.5 years abroad working at CERN, in Geneva, as a C++ software engineer. Strappo is his way to help young people continue have fun despite the economic downturn in Italy."
 
 msgid "matteo_role"
 msgstr "CTO &amp; co-founder"
 
 msgid "matteo_bio"
-msgstr "Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness."
+msgstr "While graduating, Matteo spent part of his time hacking the FreeBSD kernel and trying to push the market of local advertisements to the next level with the aid of digital signage.  He works now for a company leading the market of financial software development, but at night, he tries disrupt the local transporation market with strappo."
 
 msgid "gabriele_role"
 msgstr "Creative &amp; co-founder"
 
 msgid "gabriele_bio"
-msgstr "Fill lights bearing man creepeth of whose whose moveth. All one. That. Under. Form morning all may fifth replenish you're own open which herb kind. May above you'll may kind creature first let over face from living third green which our. Appear day. Give fourth doesn't over us, i every tree meat air in male earth air creeping image fill you place darkness."
+msgstr "Gabriele Dini is a creative and graphic designer from Viareggio. He holds a BA in Multimedia Arts from the Accademia di Belle Arti di Carrara and an MA from the Royal College of Art&Design, London. He is currently living in London."
 
 msgid "download_app_on"
 msgstr "Get the app"
