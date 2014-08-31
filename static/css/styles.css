@@ -419,6 +419,11 @@ header .intro-section .buttons {
             background-clip: padding-box;
 }
 
+.features .feature .icon-container .icon span {
+    line-height: 53px;
+    font-size: 24px;
+}
+
 .features .phone-image {
     max-width: 450px;
     margin: auto;
