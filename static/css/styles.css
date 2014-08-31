@@ -534,7 +534,10 @@ object {
     padding-bottom: 110px;
 }
 
-.availability .image {
+.availability .city {
+}
+
+.availability .city .image {
     font-size: 24px;
     border: 2px solid transparent;
     -webkit-box-shadow: 0px 0px 0px 2px #ffffff;
@@ -548,12 +551,14 @@ object {
     overflow: hidden;
 }
 
-.availability .name {
+.availability .city .name {
     margin-top: 15px;
     font-weight: 400;
 }
 
-.availability .section-description {
+.availability .city .description {
+    max-width: 500px;
+    margin: auto;
     margin-top: 40px;
 }
 
@@ -568,7 +573,7 @@ object {
 }
 
 .testimonials .feedback {
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -633,6 +638,8 @@ object {
 
 .services .single-service {
     padding-bottom: 60px;
+    max-width: 500px;
+    margin: auto;
 }
 
 .services .single-service .service-icon {
@@ -686,6 +693,8 @@ object {
 
 .team .team-member .bio {
     font-size: 16px;
+    max-width: 500px;
+    margin: auto;
     margin-top: 40px;
     margin-bottom: 30px;
 }

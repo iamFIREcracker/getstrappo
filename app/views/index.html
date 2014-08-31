@@ -587,33 +587,46 @@
 <section class="availability" id="availability">
 
 <div class="color-overlay">
-    
-    <!-- SECTION HEADER -->
-    <div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+    <div class="container">
         
-        <!-- SECTION TITLE -->
-        <h2>{{ _('availability') }}</h2>
-        
-        <div class="white-line">
-        </div>        
-    </div>
-
-    <!-- /END SECTION HEADER -->
-    <div class="container">        
-    
-    	<div class="image">
-            <img src="/static/images/viareggio.png" alt="">
-        </div>
-        <div class="name">
-            Viareggio
-        </div>
-        <div class="section-description col-md-6 col-md-offset-3">
-            {{ _('availability_text') }}
+        <!-- SECTION HEADER -->
+        <div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+            
+            <!-- SECTION TITLE -->
+            <h2>{{ _('availability') }}</h2>
+            
+            <div class="white-line">
+            </div>        
         </div>
 
+        <!-- /END SECTION HEADER -->
+        <div class="row wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+            <!-- CITY -->
+            <div class="col-md-offset-4 col-md-4 city">
+                <!-- IMAGE -->
+                <div class="image">
+                    <img src="/static/images/viareggio.png" alt="">
+                </div>
+
+                <!-- INFORMATION -->
+                <div class="name">
+                    Viareggio
+                </div>
+                <p class="description">
+                {{ _('availability_text') }}
+                </p>
+            </div>
+            <!-- END CITY -->
+
+        </div>
+        <!-- END ROW -->
+
     </div>
+    <!-- /END CONTAINER -->
+
 </div>
-<!-- /END CONTAINER -->
+<!-- /END COLOR-OVERLAY -->
 
 </section>
 <!-- /END AVAILABILITY SECTION -->
