@@ -101,4 +101,5 @@ def restart():
     print(cyan("Restarting supervisor..."))
     # XXX Issuing a 'service supervisor restart' will produce an error!!!
     sdo("service supervisor stop")
+    sdo("sleep 1")
     sdo("service supervisor start")
