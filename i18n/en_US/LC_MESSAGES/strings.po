@@ -163,7 +163,7 @@ msgid "matteo_role"
 msgstr "CTO &amp; co-founder"
 
 msgid "matteo_bio"
-msgstr "While graduating, Matteo spent part of his time hacking the FreeBSD kernel and trying to push the market of local advertisements to the next level with the aid of digital signage.  He works now for a company leading the market of financial software development, but at night, he tries disrupt the local transporation market with strappo."
+msgstr "While graduating, Matteo spent part of his time hacking the FreeBSD kernel and trying to push the market of local advertisements to the next level with the aid of digital signage.  He works now for a company leading the market of financial software development, but at night, he tries to disrupt the local transporation system with strappo."
 
 msgid "gabriele_role"
 msgstr "Creative &amp; co-founder"

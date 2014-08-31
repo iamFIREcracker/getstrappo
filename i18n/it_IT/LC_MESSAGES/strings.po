@@ -176,7 +176,7 @@ msgid "matteo_role"
 msgstr "CTO &amp; co-founder"
 
 msgid "matteo_bio"
-msgstr "All'università, Matteo ha speso buona parte del suo tempo a giocare con il kernel di FreeBSD e a provare ad innovare il mercato della pubblicità locale con l'utilizzo di videoposter.  Lavora adesso per un'azienda leader nello sviluppo di software per il mondo della finanza, ma di notte, cerca di stravolgere il mercato dei trasporti locali con strappo."
+msgstr "All'università, Matteo ha speso buona parte del suo tempo a giocare con il kernel di FreeBSD e a provare ad innovare il mercato della pubblicità locale con l'utilizzo di videoposter.  Lavora adesso per un'azienda leader nello sviluppo di software per il mondo della finanza, ma di notte, cerca di stravolgere il sistema dei trasporti locali con strappo."
 
 msgid "gabriele_role"
 msgstr "Creative &amp; co-founder"
