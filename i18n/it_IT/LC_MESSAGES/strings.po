@@ -185,7 +185,8 @@ msgid "gabriele_bio"
 msgstr "Gabriele Dini è un creativo e grafico di Viareggio. Si laurea in Arti Multimediali from the Accademia di Belle Arti di Carrara and ottiene un Master al Royal College of Art&Design di Londra. Attualmente vive a Londra, dove è costretto ad alzarsi un'ora prima dei suoi due amici per lavorare a Strappo."
 
 
-
+msgid "tl_dr"
+msgstr "TL;DR: 2/3 sono koderz, 1/3 è un artista, 3/3 sono geeks"
 
 
 msgid "download_app_on"

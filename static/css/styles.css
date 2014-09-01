@@ -661,7 +661,6 @@ object {
 }
 
 .team .team-member {
-    padding-bottom: 60px;
 }
 
 .team .team-member {
@@ -696,7 +695,6 @@ object {
     max-width: 500px;
     margin: auto;
     margin-top: 40px;
-    margin-bottom: 30px;
 }
 
 .team .team-member .name {
@@ -705,6 +703,10 @@ object {
 
 .team .team-member .role {
     font-size: 12px;
+}
+
+.team .tl_dr {
+	padding-top: 50px;
 }
 
 /*---------------------------------------
