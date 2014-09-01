@@ -163,13 +163,13 @@ msgid "matteo_role"
 msgstr "CTO &amp; co-founder"
 
 msgid "matteo_bio"
-msgstr "While graduating in Computer Engineering, Matteo spent part of his time hacking the FreeBSD kernel and trying to push the market of local advertisements to the next level with the aid of digital signage.  He now works for a company leading the market of financial software development, but at night, he tries to revolutionize the local transporation system with Strappo."
+msgstr "While graduating in Computer Engineering, Matteo spent part of his time hacking the FreeBSD kernel and trying to push the market of local advertisements to the next level with the aid of digital signage. He now works for a company leading the market of financial software development, but at night, he tries to revolutionize the local transporation system with Strappo."
 
 msgid "gabriele_role"
 msgstr "Creative &amp; co-founder"
 
 msgid "gabriele_bio"
-msgstr "Gabriele Dini is a creative and graphic designer from Viareggio. He holds a BA in Multimedia Arts from the Accademia di Belle Arti di Carrara and an MA from the Royal College of Art&Design, London. He is currently living in London, where he's forced to get up one hour earlier than his two friends and colleagues to work on Strappo."
+msgstr "Gabriele Dini is a creative and graphic designer from Viareggio. He holds a BA in Multimedia Arts from the Accademia di Belle Arti di Carrara and an MA from the Royal College of Art&Design, London. He is currently living in London, where he's forced to get up one hour earlier than his two friends to work on Strappo."
 
 msgid "download_app_on"
 msgstr "Get the app"
