@@ -27,7 +27,7 @@ RESPONSIVE FIXES
         text-align: center;
     }
 
-    .colored-line-left {
+    .app-brief .colored-line-left {
         float: none;
         margin: auto;
     }
@@ -114,6 +114,11 @@ RESPONSIVE FIXES
         padding-top: 9%;
     }
 
+    p {
+        max-width: 500px;
+        margin: auto;
+    }
+
     .features .features-left,
     .features .features-right {
         text-align: center;
@@ -121,7 +126,7 @@ RESPONSIVE FIXES
     }
 
     .features .feature {
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 
     .features .features-left .icon-container,
@@ -139,6 +144,11 @@ RESPONSIVE FIXES
         margin: auto;
         width: 80%;
         margin-bottom: 10px;
+    }
+
+    .colored-line-left {
+        float: none;
+        margin: auto;
     }
 }
 

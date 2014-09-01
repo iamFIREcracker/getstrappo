@@ -424,25 +424,70 @@ header .intro-section .buttons {
     font-size: 24px;
 }
 
-.features .phone-image {
-    max-width: 450px;
-    margin: auto;
+
+@media (min-width: 1200px) {
+
+    .features .phone-image {
+        max-width: 370px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .features .phone-image .phone-screen {
+        max-width: 207px;
+        margin-top: 175px;
+        margin-left: 82px;
+        top: 0px;
+        position: absolute;
+    }
+
+    .features .phone-image .phone-screen .owl-controls {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .features .phone-image {
+        max-width: 450px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .features .phone-image .phone-screen {
+        max-width: 210px;
+        margin-top: 176px;
+        margin-left: 83px;
+        top: 0px;
+        position: absolute;
+    }
+
+    .features .phone-image .phone-screen .owl-controls {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 991px) {
+    .features .phone-image {
+        max-width: 450px;
+        margin: auto;
+        margin-top: 110px;
+    }
+
+    .features .phone-image .phone-screen {
+        max-width: 157px;
+        margin-top: 168px;
+        margin-left: 63px;
+        top: 0px;
+        position: absolute;
+    }
+
+    .features .phone-image .phone-screen .owl-controls {
+        margin-top: 70px;
+    }
 }
 
 .features .phone-image img {
     width: 100%;
-}
-
-.features .phone-image .phone-screen {
-    max-width: 252px;
-    margin-top: 91px;
-    margin-left: 100px;
-    top: 0px;
-    position: absolute;
-}
-
-.features .phone-image .phone-screen .owl-controls {
-    margin-top: 110px;
 }
 
 
@@ -492,6 +537,7 @@ header .intro-section .buttons {
     margin-right: 10px;
     vertical-align: inherit;
 }
+
 
 
 /* VIDEO */
@@ -661,6 +707,7 @@ object {
 }
 
 .team .team-member {
+    margin-bottom: 50px;
 }
 
 .team .team-member {
