@@ -33,8 +33,8 @@ class RedisStore(Store):
                                           value=self.encode(value)))
 
     def __delitem__(self, key):
-        self._redis.zdel(_sessions, key)
-        self._redis.hdel(_key(key))
+        self._redis.zrem(_sessions, key)
+        self._redis.delete(_key(key))
 
     def cleanup(self, timeout):
         now = time.time()
