@@ -390,6 +390,10 @@ header .intro-section .buttons {
     margin-bottom: 80px;
 }
 
+.features .features-embed {
+    margin-bottom: 0px;
+}
+
 .features .features-right .icon-container {
     float: left;
     margin-right: 20px;
@@ -422,6 +426,23 @@ header .intro-section .buttons {
 .features .feature .icon-container .icon span {
     line-height: 53px;
     font-size: 24px;
+}
+
+.features .big-icon {
+    padding-bottom: 60px;
+    max-width: 500px;
+    margin: auto;
+    font-size: 80px;
+}
+
+.features .feature-table {
+	width: 100%;
+	text-align: center
+}
+
+.features .disclaimer {
+    text-align: left;
+    font-weight: 200;
 }
 
 

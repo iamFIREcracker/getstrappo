@@ -54,44 +54,6 @@ msgid "how_it_works"
 msgstr "Come funziona"
 
 
-
-
-msgid "features_navbar"
-msgstr "Features"
-
-msgid "features"
-msgstr "È una bomba"
-
-msgid "highlights_ride_free_title"
-msgstr "Gratis!"
-
-msgid "highlights_ride_free_text"
-msgstr "Ancora per un tempo limitato Strappo continuerà ad essere gratis per tutti i passeggeri. Avete capito bene!"
-
-msgid "highlights_driver_payout_title"
-msgstr "Guida con strappo e risparmia!"
-
-msgid "highlights_driver_payout_text"
-msgstr "Sai che i costi di esercizio della tua auto sono in media 4 €* per 10 km? Dai uno Strappo ad un passeggero e risparmia il 50%! Due passeggeri? Risparmi il 67%!"
-
-msgid "highlights_community_title"
-msgstr "Aggiungi un posto in macchina, che c'è un amico in più"
-
-msgid "highlights_community_text"
-msgstr "Strappo è una comunità di persone amichevoli, che vogliono rendere la nostra città più divertente e vivibile. Unisciti a noi e fai nuove amicizie!"
-
-msgid "highlights_environment_title"
-msgstr "Amiamo l'ambiente"
-
-msgid "highlights_environment_text"
-msgstr "Guardati intorno, quante macchine vedi con solo il guidatore a bordo? Il 69% degli italiani guida per andare a lavoro, ma solo il 4% sale in macchina da passeggero. Per ogni strappo che dai, aiuti a ridurre traffico ed inquinamento!"
-
-
-
-
-
-
-
 msgid "passenger"
 msgstr "Prendi uno strappo!"
 
@@ -150,6 +112,45 @@ msgstr "Non appena il passeggero accetta la tua offerta, il viaggio condiviso pu
 
 
 
+msgid "community"
+msgstr "Community"
+
+msgid "highlights_ride_free_title"
+msgstr "Gratis!"
+
+msgid "highlights_ride_free_text"
+msgstr "Ancora per un tempo limitato Strappo continuerà ad essere gratis per tutti i passeggeri. Avete capito bene!"
+
+msgid "highlights_driver_payout_title"
+msgstr "Guida con strappo e risparmia!"
+
+msgid "highlights_driver_payout_text"
+msgstr "Sai che i costi di esercizio della tua auto sono in media 4 €* per 10 km? Dai uno Strappo ad un passeggero e risparmia il 50%! Due passeggeri? Risparmi il 67%!"
+
+msgid "highlights_community_title"
+msgstr "Aggiungi un posto in macchina, che c'è un amico in più"
+
+msgid "highlights_community_text"
+msgstr "Strappo è una comunità di persone amichevoli, che vogliono rendere la nostra città più divertente e vivibile. Unisciti a noi e fai nuove amicizie!"
+
+msgid "highlights_environment_title"
+msgstr "Amiamo l'ambiente"
+
+msgid "highlights_environment_text"
+msgstr "Guardati intorno, quante macchine vedi con solo il guidatore a bordo? Il 69% degli italiani guida per andare a lavoro, ma solo il 4% sale in macchina da passeggero. Per ogni strappo che dai, aiuti a ridurre traffico ed inquinamento!"
+
+
+msgid "pricing_passengers_title"
+msgstr "If you ride as a passenger..."
+
+msgid "pricing_passengers_text"
+msgstr "That's easy: it's on the house! As a limited time launch promotion, you can ride around as a passenger for free!"
+
+msgid "pricing_drivers_title"
+msgstr "... If you drive"
+
+msgid "pricing_drivers_text"
+msgstr "Did you know that your car's running costs on average amount to 0.40€/km*? Strappo will help you offset that. Here's what you get:"
 
 
 msgid "availability"

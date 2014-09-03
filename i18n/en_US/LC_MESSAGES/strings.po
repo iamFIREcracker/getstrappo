@@ -53,49 +53,6 @@ msgstr "How it works"
 
 
 
-msgid "features_navbar"
-msgstr "Community"
-
-msgid "features"
-msgstr "Community"
-
-msgid "highlights_ride_free_title"
-msgstr "No ticket to ride"
-
-msgid "highlights_ride_free_text"
-msgstr "For a limited time Strappo will be free to all passengers. Yes, free as in beer!"
-
-msgid "highlights_community_title"
-msgstr "Come for the convenience, stay for the company"
-
-msgid "highlights_community_text"
-msgstr "Strappo is a community of friendly and helpful people, who want to make their city more livable. Join us and make new friends!"
-
-msgid "highlights_environment_title"
-msgstr "We love the environment"
-
-msgid "highlights_environment_text"
-msgstr "Look around, how many cars do you see with just the driver? 69% of Italians drive to work, but only 4% rides as a passenger. For every ride you share, you help reducing traffic and pollution!"
-
-msgid "highlights_facebook_title"
-msgstr "Social carsharing is social"
-
-msgid "highlights_facebook_text"
-msgstr "Strappo is Facebook-connected. You don't need to create yet another account and it helps towards granting profile authenticity. Furthermore, you can see common friends with your driver or passengers. Community is being connected!"
-
-msgid "highlights_rating_title"
-msgstr "We got stars in our eyes"
-
-msgid "highlights_rating_text"
-msgstr "After each trip driver and passenger rate each other. Strappo are committed to keeping high standards of safety and comfort for their users, so users who systematically receive low ratings will be banned."
-
-msgid "highlights_3_way_title"
-msgstr "Freedom of choice"
-
-msgid "highlights_3_way_text"
-msgstr "Strappo is not a taxi service, it's a platform that connects drivers with passengers. As a driver, you decide which passengers to make a ride offer to. As a passenger, you pick the ride offer, based on the driver rating, their response time or even their car. Choosing is safer and more comfortable for you."
-
-
 msgid "passenger"
 msgstr "Catch a strappo!"
 
@@ -151,6 +108,69 @@ msgstr "Go pick them up!"
 
 msgid "driver_step3"
 msgstr "Once the passenger accepts your offer, the shared ride can start. At destination, you'll be prompted to rate your passengers (this is very important to us!)"
+
+
+
+
+
+msgid "community"
+msgstr "Community"
+
+msgid "highlights_ride_free_title"
+msgstr "No ticket to ride"
+
+msgid "highlights_ride_free_text"
+msgstr "For a limited time Strappo will be free to all passengers. Yes, free as in beer!"
+
+msgid "highlights_community_title"
+msgstr "Come for the convenience, stay for the company"
+
+msgid "highlights_community_text"
+msgstr "Strappo is a community of friendly and helpful people, who want to make their city more livable. Join us and make new friends!"
+
+msgid "highlights_environment_title"
+msgstr "We love the environment"
+
+msgid "highlights_environment_text"
+msgstr "Look around, how many cars do you see with just the driver? 69% of Italians drive to work, but only 4% rides as a passenger. For every ride you share, you help reducing traffic and pollution!"
+
+msgid "highlights_facebook_title"
+msgstr "Social carsharing is social"
+
+msgid "highlights_facebook_text"
+msgstr "Strappo is Facebook-connected. You don't need to create yet another account and it helps towards granting profile authenticity (you can even see the common friends!). Community is being connected!"
+
+msgid "highlights_rating_title"
+msgstr "We got stars in our eyes"
+
+msgid "highlights_rating_text"
+msgstr "After each trip driver and passenger rate each other. Strappo are committed to keeping high standards of safety and comfort for their users, so users who systematically receive low ratings will be banned."
+
+msgid "highlights_3_way_title"
+msgstr "Freedom of choice"
+
+msgid "highlights_3_way_text"
+msgstr "As a driver, you decide which passengers to make a ride offer to. As a passenger, you pick the ride offer, based on the driver rating, their response time or even their car. Choosing is safer and more comfortable for you."
+
+
+
+msgid "pricing"
+msgstr "Pricing"
+
+msgid "pricing_passengers_title"
+msgstr "If you ride as a passenger..."
+
+msgid "pricing_passengers_text"
+msgstr "That's easy: it's on the house! As a limited time launch promotion, you can ride around as a passenger for free!"
+
+msgid "pricing_drivers_title"
+msgstr "... If you drive"
+
+msgid "pricing_drivers_text"
+msgstr "Did you know that your car's running costs on average amount to 0.40€/km*? Strappo will help you offset that. Here's what you get**:"
+
+msgid "pricing_disclaimers"
+msgstr "* Official ACI tables<br/>** We're still in a pilot phase, so your reimbursement will be credited on your Strappo virtual account, which you'll be able to redeem starting Nov 1 2014"
 
 
 
