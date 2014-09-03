@@ -54,10 +54,10 @@ msgstr "How it works"
 
 
 msgid "features_navbar"
-msgstr "Features"
+msgstr "Community"
 
 msgid "features"
-msgstr "It's awesome"
+msgstr "Community"
 
 msgid "highlights_ride_free_title"
 msgstr "No ticket to ride"
@@ -66,7 +66,7 @@ msgid "highlights_ride_free_text"
 msgstr "For a limited time Strappo will be free to all passengers. Yes, free as in beer!"
 
 msgid "highlights_community_title"
-msgstr "Come for the price, stay for the company"
+msgstr "Come for the convenience, stay for the company"
 
 msgid "highlights_community_text"
 msgstr "Strappo is a community of friendly and helpful people, who want to make their city more livable. Join us and make new friends!"
@@ -77,9 +77,23 @@ msgstr "We love the environment"
 msgid "highlights_environment_text"
 msgstr "Look around, how many cars do you see with just the driver? 69% of Italians drive to work, but only 4% rides as a passenger. For every ride you share, you help reducing traffic and pollution!"
 
+msgid "highlights_facebook_title"
+msgstr "Social carsharing is social"
 
+msgid "highlights_facebook_text"
+msgstr "Strappo is Facebook-connected. You don't need to create yet another account and it helps towards granting profile authenticity. Furthermore, you can see common friends with your driver or passengers. Community is being connected!"
 
+msgid "highlights_rating_title"
+msgstr "We got stars in our eyes"
 
+msgid "highlights_rating_text"
+msgstr "After each trip driver and passenger rate each other. Strappo are committed to keeping high standards of safety and comfort for their users, so users who systematically receive low ratings will be banned."
+
+msgid "highlights_3_way_title"
+msgstr "Freedom of choice"
+
+msgid "highlights_3_way_text"
+msgstr "Strappo is not a taxi service, it's a platform that connects drivers with passengers. As a driver, you decide which passengers to make a ride offer to. As a passenger, you pick the ride offer, based on the driver rating, their response time or even their car. Choosing is safer and more comfortable for you."
 
 
 msgid "passenger"
