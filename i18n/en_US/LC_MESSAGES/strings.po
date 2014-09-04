@@ -144,13 +144,13 @@ msgid "highlights_rating_title"
 msgstr "We got stars in our eyes"
 
 msgid "highlights_rating_text"
-msgstr "After each trip driver and passenger rate each other. Strappo are committed to keeping high standards of safety and comfort for their users, so users who systematically receive low ratings will be banned."
+msgstr "After each trip driver and passenger rate each other. At Strappo we're committed to keeping high standards of safety and comfort for our users, so users who systematically receive low ratings will be banned."
 
 msgid "highlights_3_way_title"
 msgstr "Freedom of choice"
 
 msgid "highlights_3_way_text"
-msgstr "As a driver, you decide which passengers to make a ride offer to. As a passenger, you pick the ride offer, based on the driver rating, their response time or even their car. Choosing is safer and more comfortable for you."
+msgstr "As a driver, you decide which passengers you offer your spare seats to. As a passenger, you pick your driver, based on their rating, their response time or even their car. Choosing is safer and more comfortable for you."
 
 
 
@@ -167,10 +167,29 @@ msgid "pricing_drivers_title"
 msgstr "... If you drive"
 
 msgid "pricing_drivers_text"
-msgstr "Did you know that your car's running costs on average amount to 0.40 €/km*? Strappo will help you offset that. Here's what you get**:"
+msgstr "Did you know that your car's running costs on average amount to 0.40 €/km*? Strappo will help you offset that. Here's what's in for you**:"
+
+msgid "pricing_table_reimbursement"
+msgstr "Reimbursement"
+
+msgid "pricing_table_savings"
+msgstr "You save"
+
+msgid "pricing_table_1pax"
+msgstr "1 passenger"
+
+msgid "pricing_table_2pax"
+msgstr "Party of 2"
+
+msgid "pricing_table_3pax"
+msgstr "Party of 3"
+
+msgid "pricing_table_4pax"
+msgstr "Party of 4"
 
 msgid "pricing_disclaimers"
-msgstr "* Official ACI tables<br/>** We're still in a pilot phase, so your reimbursement will be credited on your Strappo virtual account, which you'll be able to redeem starting Nov 1 2014"
+msgstr "* Official ACI tables<br/>** We're still in a pilot phase, so your reimbursement will be credited on your Strappo virtual account and you'll be able to redeem it starting Nov 1 2014"
+
 
 
 

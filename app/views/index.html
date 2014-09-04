@@ -724,7 +724,7 @@
 			</div>
 			
 		</div>
-		<div class="col-md-6 col-sm-6 features-right features-embed wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<div class="col-md-6 col-sm-6 features-right features-embed wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 			<!-- FEATURE -->
             <div class="feature">
 							
@@ -739,16 +739,8 @@
 		</div>
 	</div>
 	<div class="row">	
-		
-		<div class="col-md-2 col-md-offset-1 wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-			
-			<div class="big-icon main-color">
-				<i class="icon_currency_alt"></i>
-			</div>
-			
-		</div>	
 
-		<div class="col-md-6 col-sm-6 features-right wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<div class="col-md-6 col-sm-6 col-md-offset-3 features-right wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 			<!-- FEATURE -->
             <div class="feature">
 							
@@ -760,26 +752,26 @@
 					</p>
 					<table class="feature-table">
 						<th>
-    						<td>Reimbursement</td>
-    						<td>You save</td>
+    						<td>{{ _('pricing_table_reimbursement') }}</td>
+    						<td>{{ _('pricing_table_savings') }}</td>
     					</th>
   						<tr>
-    						<td>1 Passenger</td>
+    						<td>{{ _('pricing_table_1pax') }}</td>
     						<td>0.20 €/km</td>
     						<td>50%</td>
     					</tr>
     					<tr>
-    						<td>Party of 2</td>
+    						<td>{{ _('pricing_table_2pax') }}</td>
     						<td>0.27 €/km</td>
     					    <td>67%</td>	
     					</tr>
     					<tr>
-    						<td>Party of 3</td>
+    						<td>{{ _('pricing_table_3pax') }}</td>
     						<td>0.30 €/km</td>
     					    <td>75%</td>	
     					</tr>
     					<tr>
-    						<td>Party of 4</td> 
+    						<td>{{ _('pricing_table_4pax') }}</td> 
     						<td>0.32 €/km</td>
     						<td>80%</td>	
     					</tr>
@@ -789,7 +781,15 @@
 					</h6>
 				</div>
 			</div>			
-		</div>		
+		</div>
+		
+		<div class="col-md-2 wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+			
+			<div class="big-icon main-color">
+				<i class="icon_currency_alt"></i>
+			</div>
+			
+		</div>			
 	
 	</div>
 	<!-- /END ROW -->

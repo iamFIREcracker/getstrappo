@@ -139,18 +139,68 @@ msgstr "Amiamo l'ambiente"
 msgid "highlights_environment_text"
 msgstr "Guardati intorno, quante macchine vedi con solo il guidatore a bordo? Il 69% degli italiani guida per andare a lavoro, ma solo il 4% sale in macchina da passeggero. Per ogni strappo che dai, aiuti a ridurre traffico ed inquinamento!"
 
+msgid "highlights_facebook_title"
+msgstr "Per gente social"
+
+msgid "highlights_facebook_text"
+msgstr "Strappo è collegato con Facebook. Così non hai bisogno di creare un altro account e, in più, questo ci aiuta a garantire l'autenticità dei profili (puoi anche vedere gli amici in comune!). Community vuol dire essere connessi!"
+
+msgid "highlights_rating_title"
+msgstr "Vediamo le stelle"
+
+msgid "highlights_rating_text"
+msgstr "Dopo ogni viaggio guidatore e passeggero si danno un voto l'un altro. A Strappo intendiamo mantenere standard elevati di sicurezza e comfort per i nostri utenti, per cui gli utenti che riceveranno sistematicamente voti negativi verranno bannati."
+
+msgid "highlights_3_way_title"
+msgstr "Libertà di scelta"
+
+msgid "highlights_3_way_text"
+msgstr "Se guidi, decidi tu a quali passeggeri offrire un passaggio. Se sei passeggero, scegli tu il tuo guidatore, basandoti sul suo rating, il suo tempo di risposta o persino la sua auto. Scegliere è più sicuro e più confortevole per te."
+
+
+
+
+
+
+msgid "pricing"
+msgstr "Pricing"
 
 msgid "pricing_passengers_title"
-msgstr "If you ride as a passenger..."
+msgstr "Se sei un passeggero..."
 
 msgid "pricing_passengers_text"
-msgstr "That's easy: it's on the house! As a limited time launch promotion, you can ride around as a passenger for free!"
+msgstr "È semplice: offriamo noi! Come promozione di lancio, puoi andartene in giro con Strappo gratis!"
 
 msgid "pricing_drivers_title"
-msgstr "... If you drive"
+msgstr "... Se guidi"
 
 msgid "pricing_drivers_text"
-msgstr "Did you know that your car's running costs on average amount to 0.40€/km*? Strappo will help you offset that. Here's what you get:"
+msgstr "Sapevi che i costi di esercizio della tua auto in media sono di 0.40 €/km*? Strappo ti aiuta a recuperare un po' di questi costi. Ecco quello che ti spetta**:"
+
+msgid "pricing_table_reimbursement"
+msgstr "Rimborso"
+
+msgid "pricing_table_savings"
+msgstr "Risparmi"
+
+msgid "pricing_table_1pax"
+msgstr "1 passeggero"
+
+msgid "pricing_table_2pax"
+msgstr "Gruppo di 2"
+
+msgid "pricing_table_3pax"
+msgstr "Gruppo di 3"
+
+msgid "pricing_table_4pax"
+msgstr "Gruppo di 4"
+
+msgid "pricing_disclaimers"
+msgstr "* Tabelle ufficiali ACI<br/>** Siamo ancora in fase pilota, quindi il tuo rimborso sarà accreditato sul tuo account virtuale Strappo e potrai riscattarlo a partire dal 1º Nov 2014"
+
+
+
+
 
 
 msgid "availability"
