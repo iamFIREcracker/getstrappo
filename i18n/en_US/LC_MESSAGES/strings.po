@@ -167,7 +167,7 @@ msgid "pricing_drivers_title"
 msgstr "... If you drive"
 
 msgid "pricing_drivers_text"
-msgstr "Did you know that your car's running costs on average amount to 0.40€/km*? Strappo will help you offset that. Here's what you get**:"
+msgstr "Did you know that your car's running costs on average amount to 0.40 €/km*? Strappo will help you offset that. Here's what you get**:"
 
 msgid "pricing_disclaimers"
 msgstr "* Official ACI tables<br/>** We're still in a pilot phase, so your reimbursement will be credited on your Strappo virtual account, which you'll be able to redeem starting Nov 1 2014"

@@ -706,7 +706,9 @@ object {
 .services .single-service {
     padding-bottom: 60px;
     max-width: 500px;
+/* 
     margin: auto;
+ */
 }
 
 .services .single-service .service-icon {
