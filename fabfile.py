@@ -37,7 +37,7 @@ def dev():
     env.repo_branch = 'develop'
 
     env.servername = 'dev.getstrappo.com'
-    env.site_url = 'http://%s' % env.hosts[0]
+    env.site_url = 'http://%s/en' % env.hosts[0]
 
 @task
 def prod():
@@ -51,7 +51,7 @@ def prod():
     env.repo_branch = 'production'
 
     env.servername = 'getstrappo.com'
-    env.site_url = 'http://%s' % env.hosts[0]
+    env.site_url = 'http://%s/en' % env.hosts[0]
 
 
 @task
