@@ -705,10 +705,11 @@ object {
 
 .services .single-service {
     padding-bottom: 60px;
+}
+
+.services .single-service p {
     max-width: 500px;
-/* 
     margin: auto;
- */
 }
 
 .services .single-service .service-icon {
