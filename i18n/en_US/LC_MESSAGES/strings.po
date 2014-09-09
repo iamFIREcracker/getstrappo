@@ -228,6 +228,8 @@ msgstr "Gabriele is a creative and graphic designer from Viareggio. He holds a B
 msgid "tl_dr"
 msgstr "TL;DR: 2/3 are koderz, 1/3 is an artist, 3/3 are geeks"
 
+msgid "advisory_board"
+msgstr "Advisory board: Emmanuele Angione, Guido Meak"
 
 msgid "download_app_on"
 msgstr "Get the app"
