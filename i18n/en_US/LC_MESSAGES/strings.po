@@ -167,7 +167,7 @@ msgid "pricing_drivers_title"
 msgstr "... If you drive"
 
 msgid "pricing_drivers_text"
-msgstr "Did you know that your car's running costs on average amount to 0.40 €/km*? Strappo will help you offset that. Here's what's in for you**:"
+msgstr "Did you know that your car's running costs on average amount to 0.30 €/km*? Strappo will help you offset that. Here's what's in for you**:"
 
 msgid "pricing_table_reimbursement"
 msgstr "Reimbursement"

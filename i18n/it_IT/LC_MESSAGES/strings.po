@@ -175,7 +175,7 @@ msgid "pricing_drivers_title"
 msgstr "... Se guidi"
 
 msgid "pricing_drivers_text"
-msgstr "Sapevi che i costi di esercizio della tua auto in media sono di 0.40 €/km*? Strappo ti aiuta a recuperare un po' di questi costi. Ecco quello che ti spetta**:"
+msgstr "Sapevi che i costi di esercizio della tua auto in media sono di 0.30 €/km*? Strappo ti aiuta a recuperare un po' di questi costi. Ecco quello che ti spetta**:"
 
 msgid "pricing_table_reimbursement"
 msgstr "Rimborso"
