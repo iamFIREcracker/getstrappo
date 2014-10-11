@@ -2,10 +2,14 @@
 # -*- coding: utf-8 -*-
 
 from app.controllers import IndexController
+from app.controllers import IndexLangController
+from app.controllers import OldIndexController
 from app.controllers import TOSController
 
 
 URLS = (
     '/', IndexController,
+    '/(.+)', IndexLangController,
+    '/old', OldIndexController,
     '/tos', TOSController,
 )

@@ -11,32 +11,243 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "required"
-msgstr "Obbligatorio"
 
-msgid "integer_required"
-msgstr "Deve essere intero"
+msgid "html.lang"
+msgstr "it"
 
-msgid "alert_matched_passenger"
-msgstr "%(name)s ha accettato il tuo strappo!"
+msgid "meta.description"
+msgstr "Strappo è un nuovo modo di muoversi in città. Social, divertente e gratis. L'autostop 2.0!  Unisciti alla community e scambia passaggi in macchina, fai nuovi amici e contribuisci a ridurre l'inquinamento ed il traffico!"
 
-msgid "alert_cancelled_drive_request_by_passenger"
-msgstr "Oh no! %(name)s non ha più bisogno di uno strappo.."
+msgid "meta.keywords"
+msgstr "strappo, carsharing, ridesharing, real-time, social, mobile, ios, android"
 
-msgid "alert_unmatched_passenger"
-msgstr "Hei, %(name)s è in cerca di uno strappo!"
+msgid "meta.author"
+msgstr "Strappo"
 
-msgid "alert_alit_passenger"
-msgstr "%(name)s è arrivato a destinazione!"
 
-msgid "alert_deactivated_passenger"
-msgstr "Oh no! %(name)s non ha più bisogno di uno strappo.."
 
-msgid "alert_pending_drive_request"
-msgstr "%(name)s ti ha appena offerto uno strappo!"
+msgid "title"
+msgstr "Strappo - Social Carsharing"
 
-msgid "alert_deactivated_driver"
-msgstr "Oh no! %(name)s non può più offrirti uno strappo.."
+msgid "intro"
+msgstr "Your friends, your car, your city."
 
-msgid "alert_cancelled_drive_request_by_driver"
-msgstr "Oh no! %(name)s non può più offrirti uno strappo.."
+msgid "available_on_the_stores"
+msgstr "Disponibile su App Store e Play Store"
+
+msgid "download_app"
+msgstr "Scarica App"
+
+msgid "home"
+msgstr "Home"
+
+
+
+
+msgid "what_it_is"
+msgstr "Cos'è"
+
+msgid "what_it_is_desc"
+msgstr "Strappo è un servizio di carsharing 100% italiano, fatto da giovani per giovani e per tutti coloro che vogliono spostarsi in città in maniera economica e rapida (la notte non aspetta nessuno!).<br/>Mentre guidi puoi condividere la tua auto con persone come te! Entra nella community, scambia passaggi in macchina e fai nuove amicizie!<br/>La sharing economy funziona ed è una bomba!"
+
+msgid "how_it_works"
+msgstr "Come funziona"
+
+
+msgid "passenger"
+msgstr "Prendi uno strappo!"
+
+msgid "passenger_text"
+msgstr "Devi andare in centro? O magari vuoi tornare a casa dal tuo bar preferito? Con Strappo è facile come contare fino a 3!"
+
+msgid "passenger_step1_title"
+msgstr "Richiedi un passaggio"
+
+msgid "passenger_step2_title"
+msgstr "Scegli il tuo guidatore"
+
+msgid "passenger_step3_title"
+msgstr "Buon viaggio!"
+
+msgid "passenger_step1"
+msgstr "Inserisci il tuo indirizzo di partenza, di destinazione e il numero di posti in macchina che ti servono."
+
+msgid "passenger_step2"
+msgstr "Attendi che i guidatori rispondano alla tua richiesta. Scegline uno e sei pronto a partire! Puoi anche chiamare il guidatore per metterti d'accordo sul passaggio."
+
+msgid "passenger_step3"
+msgstr "Il guidatore che hai scelto verrà a prenderti.<br>Una volta a destinazione, ricordati di toccare Fine Passaggio per dare un voto al guidatore (A Strappo la tua opinione è importante!)"
+
+
+
+
+
+
+msgid "driver"
+msgstr "Guida con noi"
+
+msgid "driver_text"
+msgstr "Hai posti in macchina liberi? Diventa un guidatore nella community di Strappo e condividi i tuoi tragitti (e i tuoi costi di gestione auto!)"
+
+msgid "driver_step1_title"
+msgstr "Inserisci i tuoi dati"
+
+msgid "driver_step1"
+msgstr "Il tuo numero di telefono ed i dettagli della tua auto permettono al passeggero di contattarti e di riconoscerti al punto di partenza."
+
+
+msgid "driver_step2_title"
+msgstr "Offri un passaggio"
+
+msgid "driver_step2"
+msgstr "Passa in rassegna i passeggeri in cerca di un passaggio. Qualcuno vicino a te vuole andare nella tua stessa direzione? Offrigli un posto!"
+
+
+msgid "driver_step3_title"
+msgstr "Passa a prenderli!"
+
+msgid "driver_step3"
+msgstr "Non appena il passeggero accetta la tua offerta, il viaggio condiviso può iniziare. Una volta a destinazione, potrai dare un voto a i tuoi passeggeri (questo è molto importante per te e per noi!)"
+
+
+
+
+msgid "community"
+msgstr "Community"
+
+msgid "highlights_ride_free_title"
+msgstr "Gratis!"
+
+msgid "highlights_ride_free_text"
+msgstr "Ancora per un tempo limitato Strappo continuerà ad essere gratis per tutti i passeggeri. Avete capito bene!"
+
+msgid "highlights_driver_payout_title"
+msgstr "Guida con strappo e risparmia!"
+
+msgid "highlights_driver_payout_text"
+msgstr "Sai che i costi di esercizio della tua auto sono in media 4 €* per 10 km? Dai uno Strappo ad un passeggero e risparmia il 50%! Due passeggeri? Risparmi il 67%!"
+
+msgid "highlights_community_title"
+msgstr "Aggiungi un posto in macchina, che c'è un amico in più"
+
+msgid "highlights_community_text"
+msgstr "Strappo è una comunità di persone amichevoli, che vogliono rendere la nostra città più divertente e vivibile. Unisciti a noi e fai nuove amicizie!"
+
+msgid "highlights_environment_title"
+msgstr "Amiamo l'ambiente"
+
+msgid "highlights_environment_text"
+msgstr "Guardati intorno, quante macchine vedi con solo il guidatore a bordo? Il 69% degli italiani guida per andare a lavoro, ma solo il 4% sale in macchina da passeggero. Per ogni strappo che dai, aiuti a ridurre traffico ed inquinamento!"
+
+msgid "highlights_facebook_title"
+msgstr "Per gente social"
+
+msgid "highlights_facebook_text"
+msgstr "Strappo è collegato con Facebook. Così non hai bisogno di creare un altro account e, in più, questo ci aiuta a garantire l'autenticità dei profili (puoi anche vedere gli amici in comune!). Community vuol dire essere connessi!"
+
+msgid "highlights_rating_title"
+msgstr "Vediamo le stelle"
+
+msgid "highlights_rating_text"
+msgstr "Dopo ogni viaggio guidatore e passeggero si danno un voto l'un altro. A Strappo intendiamo mantenere standard elevati di sicurezza e comfort per i nostri utenti, per cui gli utenti che riceveranno sistematicamente voti negativi verranno bannati."
+
+msgid "highlights_3_way_title"
+msgstr "Libertà di scelta"
+
+msgid "highlights_3_way_text"
+msgstr "Se guidi, decidi tu a quali passeggeri offrire un passaggio. Se sei passeggero, scegli tu il tuo guidatore, basandoti sul suo rating, il suo tempo di risposta o persino la sua auto. Scegliere è più sicuro e più confortevole per te."
+
+
+
+
+
+
+msgid "pricing"
+msgstr "Pricing"
+
+msgid "pricing_passengers_title"
+msgstr "Se sei un passeggero..."
+
+msgid "pricing_passengers_text"
+msgstr "È semplice: offriamo noi! Come promozione di lancio, puoi andartene in giro con Strappo gratis!"
+
+msgid "pricing_drivers_title"
+msgstr "... Se guidi"
+
+msgid "pricing_drivers_text"
+msgstr "Sapevi che i costi di esercizio della tua auto in media sono di 0.30 €/km*? Strappo ti aiuta a recuperare un po' di questi costi. Ecco quello che ti spetta**:"
+
+msgid "pricing_table_reimbursement"
+msgstr "Rimborso"
+
+msgid "pricing_table_savings"
+msgstr "Risparmi"
+
+msgid "pricing_table_1pax"
+msgstr "1 passeggero"
+
+msgid "pricing_table_2pax"
+msgstr "Gruppo di 2"
+
+msgid "pricing_table_3pax"
+msgstr "Gruppo di 3"
+
+msgid "pricing_table_4pax"
+msgstr "Gruppo di 4"
+
+msgid "pricing_disclaimers"
+msgstr "* Tabelle ufficiali ACI<br/>** Siamo ancora in fase pilota, quindi il tuo rimborso sarà accreditato sul tuo account virtuale Strappo e potrai riscattarlo a partire dal 1º Nov 2014"
+
+
+
+
+
+
+msgid "availability"
+msgstr "Disponibilità"
+
+msgid "availability_text"
+msgstr "Strappo è per il momento disponibile solo a Viareggio.<br>Iscriviti alla newsletter o seguici su Facebook, Twitter o Instagram per rimanere aggiornato sulle nostre prossime mosse!"
+
+
+
+
+
+
+msgid "team"
+msgstr "Team"
+
+msgid "giovanni_role"
+msgstr "CEO &amp; co-founder"
+
+msgid "giovanni_bio"
+msgstr "Viareggino al 100% così come i suoi due colleghi startuppers, Giovanni si laurea in Ingegneria Informatica e lavora per 3.5 anni al CERN. Da forte sostenitore della sharing economy e delle uscite fino a tarda notte, per lui il carsharing di Strappo è un modo per aiutare i giovani a continuare a divertirsi in giro, nonostante la situazione economica italiana."
+
+msgid "matteo_role"
+msgstr "CTO &amp; co-founder"
+
+msgid "matteo_bio"
+msgstr "Mentre si laurea in Ingegneria Informatica, Matteo spende buona parte del suo tempo a giocare con il kernel di FreeBSD e a provare ad innovare il mercato della pubblicità locale con l'utilizzo di videoposter. Adesso lavora per un'azienda leader nello sviluppo di software per il mondo della finanza, ma di notte cerca di stravolgere il sistema dei trasporti locali con Strappo."
+
+msgid "gabriele_role"
+msgstr "Creative &amp; co-founder"
+
+msgid "gabriele_bio"
+msgstr "Gabriele Dini è un creativo e grafico di Viareggio. Si laurea in Arti Multimediali from the Accademia di Belle Arti di Carrara and ottiene un Master al Royal College of Art&Design di Londra. Attualmente vive a Londra, dove è costretto ad alzarsi un'ora prima dei suoi due amici per lavorare a Strappo."
+
+
+msgid "tl_dr"
+msgstr "TL;DR: 2/3 sono koderz, 1/3 è un artista, 3/3 sono geeks"
+
+msgid "advisory_board"
+msgstr "Advisory board: Emmanuele Angione, Guido Meak"
+
+
+msgid "download_app_on"
+msgstr "Scarica la app da"
+
+msgid "subscribe_now"
+msgstr "Iscriviti alla Newsletter!"
+
+msgid "your_email"
+msgstr "La tua Email"

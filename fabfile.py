@@ -18,7 +18,7 @@ from fabric.colors import green
 from fabric.colors import red
 from fabric.decorators import task
 
-from fabfilecommon import *
+from fabolous.fabolous import *
 
 
 env.appname = 'getstrappo'
@@ -37,7 +37,7 @@ def dev():
     env.repo_branch = 'develop'
 
     env.servername = 'dev.getstrappo.com'
-    env.site_url = 'http://%s' % env.hosts[0]
+    env.site_url = 'http://%s/en' % env.hosts[0]
 
 @task
 def prod():
@@ -51,7 +51,7 @@ def prod():
     env.repo_branch = 'production'
 
     env.servername = 'getstrappo.com'
-    env.site_url = 'http://%s' % env.hosts[0]
+    env.site_url = 'http://%s/en' % env.hosts[0]
 
 
 @task
@@ -100,5 +100,4 @@ def restart():
 
     print(cyan("Restarting supervisor..."))
     # XXX Issuing a 'service supervisor restart' will produce an error!!!
-    sdo("service supervisor stop")
-    sdo("service supervisor start")
+    sdo("service supervisor stop && sleep 5 && service supervisor start")

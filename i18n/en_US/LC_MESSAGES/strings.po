@@ -11,32 +11,231 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "required"
-msgstr "Required"
+msgid "html.lang"
+msgstr "en"
 
-msgid "integer_required"
-msgstr "Integer required"
+msgid "meta.description"
+msgstr "Strappo is a new way of getting around.  It's social, funny, and free!  Hitchhiking 2.0!  Join the community and share your car, find new friends and help reducing traffic and pollution!"
 
-msgid "alert_matched_passenger"
-msgstr "%(name)s just accepted your drive request!"
+msgid "meta.keywords"
+msgstr "strappo, carsharing, ridesharing, real-time, on-demand, social, mobile, ios, android"
 
-msgid "alert_cancelled_drive_request_by_passenger"
-msgstr "Oh no! %(name)s is no more looking for a ride.."
+msgid "meta.author"
+msgstr "Strappo"
 
-msgid "alert_unmatched_passenger"
-msgstr "Hei, %(name)s is looking for a ride!"
 
-msgid "alert_alit_passenger"
-msgstr "%(name)s has arrived at destination!"
 
-msgid "alert_deactivated_passenger"
-msgstr "Oh no! %(name)s is no more looking for a ride.."
+msgid "title"
+msgstr "Strappo - Social carsharing"
 
-msgid "alert_pending_drive_request"
-msgstr "%(name)s has offered to give you a ride!"
+msgid "intro"
+msgstr "Your friends, your car, your city."
 
-msgid "alert_deactivated_driver"
-msgstr "Oh no! %(name)s cannot drive you around anymore.."
+msgid "available_on_the_stores"
+msgstr "Available on App Store and Play Store"
 
-msgid "alert_cancelled_drive_request_by_driver"
-msgstr "Oh no! %(name)s cannot drive you around anymore.."
+msgid "download_app"
+msgstr "Download App"
+
+msgid "home"
+msgstr "Home"
+
+msgid "what_it_is"
+msgstr "What it is"
+
+msgid "what_it_is_desc"
+msgstr "Strappo is a 100% Italian carsharing service, aimed squarely at young people who want to get around on the cheap, especially at night when public transport options are next to none.<br/>As you drive around the city, you can share your car with fellow passengers. Join the community, take and offer rides and meet new friends!<br/>The sharing economy works and it's awesome!"
+
+msgid "how_it_works"
+msgstr "How it works"
+
+
+
+
+
+msgid "passenger"
+msgstr "Catch a strappo!"
+
+msgid "passenger_text"
+msgstr "Going downtown? Or perhaps back home from your favorite watering hole? Finding a ride with Strappo is as easy as 1-2-3!"
+
+
+msgid "passenger_step1_title"
+msgstr "Ask for a ride"
+
+msgid "passenger_step1"
+msgstr "Input your preferred pick-up and drop-off locations and number of friends you are hanging out with."
+
+
+msgid "passenger_step2_title"
+msgstr "Choose your driver"
+msgid "passenger_step2"
+
+msgstr "Wait for drivers to respond to your request. Pick one and you're good to go! You can even call the driver to better arrange the trip beforehand."
+
+
+msgid "passenger_step3_title"
+msgstr "Enjoy the ride!"
+
+msgid "passenger_step3"
+msgstr "Your driver will come pick you up and take you to destination.<br>At destination, remember to tap End Ride and rate your driver (at Strappo your opinion matters!)"
+
+
+
+msgid "driver"
+msgstr "Drive with us"
+
+msgid "driver_text"
+msgstr "Got empty seats? Become a strappo driver and share your trip (and your car running costs!)"
+
+
+msgid "driver_step1_title"
+msgstr "Enter your details"
+
+msgid "driver_step1"
+msgstr "Your phone number and car details allow your passengers to contact you and to recognize you at the pick-up point."
+
+
+msgid "driver_step2_title"
+msgstr "Offer a seat"
+
+msgid "driver_step2"
+msgstr "Browse the passengers currently looking for a ride. Anybody close to you who's going the same way as you are? Offer them a seat!"
+
+
+msgid "driver_step3_title"
+msgstr "Go pick them up!"
+
+msgid "driver_step3"
+msgstr "Once the passenger accepts your offer, the shared ride can start. At destination, you'll be prompted to rate your passengers (this is very important to us!)"
+
+
+
+
+
+msgid "community"
+msgstr "Community"
+
+msgid "highlights_ride_free_title"
+msgstr "No ticket to ride"
+
+msgid "highlights_ride_free_text"
+msgstr "For a limited time Strappo will be free to all passengers. Yes, free as in beer!"
+
+msgid "highlights_community_title"
+msgstr "Come for the convenience, stay for the company"
+
+msgid "highlights_community_text"
+msgstr "Strappo is a community of friendly and helpful people, who want to make their city more livable. Join us and make new friends!"
+
+msgid "highlights_environment_title"
+msgstr "We love the environment"
+
+msgid "highlights_environment_text"
+msgstr "Look around, how many cars do you see with just the driver? 69% of Italians drive to work, but only 4% rides as a passenger. For every ride you share, you help reducing traffic and pollution!"
+
+msgid "highlights_facebook_title"
+msgstr "Social carsharing is social"
+
+msgid "highlights_facebook_text"
+msgstr "Strappo is Facebook-connected. You don't need to create yet another account and it helps towards granting profile authenticity (you can even see the common friends!). Community is being connected!"
+
+msgid "highlights_rating_title"
+msgstr "We got stars in our eyes"
+
+msgid "highlights_rating_text"
+msgstr "After each trip driver and passenger rate each other. At Strappo we're committed to keeping high standards of safety and comfort for our users, so users who systematically receive low ratings will be banned."
+
+msgid "highlights_3_way_title"
+msgstr "Freedom of choice"
+
+msgid "highlights_3_way_text"
+msgstr "As a driver, you decide which passengers you offer your spare seats to. As a passenger, you pick your driver, based on their rating, their response time or even their car. Choosing is safer and more comfortable for you."
+
+
+
+msgid "pricing"
+msgstr "Pricing"
+
+msgid "pricing_passengers_title"
+msgstr "If you ride as a passenger..."
+
+msgid "pricing_passengers_text"
+msgstr "That's easy: it's on the house! As a limited time launch promotion, you can ride around as a passenger for free!"
+
+msgid "pricing_drivers_title"
+msgstr "... If you drive"
+
+msgid "pricing_drivers_text"
+msgstr "Did you know that your car's running costs on average amount to 0.30 €/km*? Strappo will help you offset that. Here's what's in for you**:"
+
+msgid "pricing_table_reimbursement"
+msgstr "Reimbursement"
+
+msgid "pricing_table_savings"
+msgstr "You save"
+
+msgid "pricing_table_1pax"
+msgstr "1 passenger"
+
+msgid "pricing_table_2pax"
+msgstr "Party of 2"
+
+msgid "pricing_table_3pax"
+msgstr "Party of 3"
+
+msgid "pricing_table_4pax"
+msgstr "Party of 4"
+
+msgid "pricing_disclaimers"
+msgstr "* Official ACI tables<br/>** We're still in a pilot phase, so your reimbursement will be credited on your Strappo virtual account and you'll be able to redeem it starting Nov 1 2014"
+
+
+
+
+msgid "availability"
+msgstr "Availability"
+
+msgid "availability_text"
+msgstr "Strappo is at the moment only available in Viareggio, Italy.<br>Sign up for the newsletter or follow us on Facebook, Twitter or Instagram to stay up to date on our next moves!"
+
+
+
+
+
+msgid "team"
+msgstr "Team"
+
+msgid "giovanni_role"
+msgstr "CEO &amp; co-founder"
+
+msgid "giovanni_bio"
+msgstr "Born and raised in Viareggio, just like his two fellow co-founders, Giovanni graduates in Computer Engineering from University of Pisa and then spends 3.5 years abroad working at CERN. As a strong supporter of the sharing economy and the nights out, Strappo is his way to help the young folks continue to have fun despite the economic downturn in Italy."
+
+msgid "matteo_role"
+msgstr "CTO &amp; co-founder"
+
+msgid "matteo_bio"
+msgstr "While graduating in Computer Engineering, Matteo spent part of his time hacking the FreeBSD kernel and trying to push the market of local advertisements to the next level with the aid of digital signage. He now works for a company leading the market of financial software development, but at night, he tries to revolutionize the local transportation system with Strappo."
+
+msgid "gabriele_role"
+msgstr "Creative &amp; co-founder"
+
+msgid "gabriele_bio"
+msgstr "Gabriele is a creative and graphic designer from Viareggio. He holds a BA in Multimedia Arts from the Accademia di Belle Arti di Carrara and an MA from the Royal College of Art&Design, London. He is currently living in London, where he's forced to get up one hour earlier than his two friends to work on Strappo."
+
+
+msgid "tl_dr"
+msgstr "TL;DR: 2/3 are koderz, 1/3 is an artist, 3/3 are geeks"
+
+msgid "advisory_board"
+msgstr "Advisory board: Emmanuele Angione, Guido Meak"
+
+msgid "download_app_on"
+msgstr "Get the app"
+
+msgid "subscribe_now"
+msgstr "Subscribe to the newsletter"
+
+msgid "your_email"
+msgstr "Your Email"
