@@ -11,6 +11,7 @@ from app.weblib.controllers import AbstractParamAuthorizableController
 
 class IndexController(object):
     def GET(self):
+        return web.ctx.render.index(_=partial(web.ctx.gettext, lang='en'))
         lang = web.ctx.environ.get('HTTP_ACCEPT_LANGUAGE')
         lang = lang.split(',')[0] if lang else 'en-US'
         lang = lang.split('-')[0]
