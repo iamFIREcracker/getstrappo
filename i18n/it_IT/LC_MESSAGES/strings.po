@@ -221,7 +221,7 @@ msgid "giovanni_role"
 msgstr "CEO &amp; co-founder"
 
 msgid "giovanni_bio"
-msgstr "Viareggino al 100% così come i suoi due colleghi startuppers, Giovanni si laurea in Ingegneria Informatica e lavora per 3.5 anni al CERN. Da forte sostenitore della sharing economy e delle uscite fino a tarda notte, per lui il carsharing di Strappo è un modo per aiutare i giovani a continuare a divertirsi in giro, nonostante la situazione economica italiana."
+msgstr "Viareggino al 100% così come gli altri due co-founders, Giovanni si laurea in Ingegneria Informatica e lavora per 3.5 anni al CERN. Da forte sostenitore della sharing economy e delle uscite fino a tarda notte, per lui il carsharing di Strappo è un modo per aiutare i giovani a continuare a divertirsi in giro, nonostante la situazione economica italiana."
 
 msgid "matteo_role"
 msgstr "CTO &amp; co-founder"
@@ -235,9 +235,14 @@ msgstr "Creative &amp; co-founder"
 msgid "gabriele_bio"
 msgstr "Gabriele Dini è un creativo e grafico di Viareggio. Si laurea in Arti Multimediali from the Accademia di Belle Arti di Carrara and ottiene un Master al Royal College of Art&Design di Londra. Attualmente vive a Londra, dove è costretto ad alzarsi un'ora prima dei suoi due amici per lavorare a Strappo."
 
+msgid "m2_role"
+msgstr "Brand image & marketing guru"
+
+msgid "m2_bio"
+msgstr "Da sempre appassionato di grafica ed identità visive e senza alcuna remora per le lunghe notti di studio, si laurea presso l'Accademia di Belle Arti di Carrara, si specializza in Grafica e Comunicazione e frequenta un master in Brand Management allo IED. Ed in parallelo a tutto questo, ha lavorato presso uno studio grafico. E poi si è messo in proprio. E poi lavora con noi a Strappo!"
 
 msgid "tl_dr"
-msgstr "TL;DR: 2/3 sono koderz, 1/3 è un artista, 3/3 sono geeks"
+msgstr "TL;DR: 2/4 sono koderz, 2/4 sono artisti, 4/4 sono geeks"
 
 msgid "advisory_board"
 msgstr "Advisory board: Emmanuele Angione, Guido Meak"
