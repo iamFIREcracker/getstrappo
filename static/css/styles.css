@@ -763,7 +763,6 @@ object {
 
 .team .team-member .bio {
     font-size: 16px;
-    max-width: 500px;
     margin: auto;
     margin-top: 40px;
 }
