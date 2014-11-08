@@ -48,7 +48,7 @@ msgid "what_it_is"
 msgstr "Cos'è"
 
 msgid "what_it_is_desc"
-msgstr "Strappo è un servizio di carsharing 100% italiano, fatto da giovani per giovani e per tutti coloro che vogliono spostarsi in città in maniera economica e rapida (la notte non aspetta nessuno!).<br/>Mentre guidi puoi condividere la tua auto con persone come te! Entra nella community, scambia passaggi in macchina e fai nuove amicizie!<br/>La sharing economy funziona ed è una bomba!"
+msgstr "Strappo è un servizio di carsharing 100% italiano, fatto da giovani per giovani e per tutti coloro che vogliono spostarsi in città in maniera economica e rapida (la notte non aspetta nessuno!).  Mentre guidi puoi condividere la tua auto con persone come te! Entra nella community, scambia passaggi in macchina e fai nuove amicizie!  La sharing economy funziona ed è una bomba!"
 
 msgid "how_it_works"
 msgstr "Come funziona"
