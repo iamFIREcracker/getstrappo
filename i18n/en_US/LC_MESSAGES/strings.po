@@ -224,6 +224,11 @@ msgstr "Creative &amp; co-founder"
 msgid "gabriele_bio"
 msgstr "Gabriele is a creative and graphic designer from Viareggio. He holds a BA in Multimedia Arts from the Accademia di Belle Arti di Carrara and an MA from the Royal College of Art&Design, London. He is currently living in London, where he's forced to get up one hour earlier than his two friends to work on Strappo."
 
+msgid "m2_role"
+msgstr "Brand image & marketing guru"
+
+msgid "m2_bio"
+msgstr "A major graphic design and brand image buff and relentless book-hitter, he graduates from the School of Fine Arts of Carrara, he gets an M.A. in Graphics and Communication and then he specializes in Brand Management at IED, Roma. And during all of this, he’s worked for a graphic design firm. Then he became freelance. And then he works with us on Strappo!"
 
 msgid "tl_dr"
 msgstr "TL;DR: 2/3 are koderz, 1/3 is an artist, 3/3 are geeks"
