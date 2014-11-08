@@ -24,14 +24,15 @@ def app_factory():
     """App factory."""
     import weblib.gettext
     import weblib.redis
+    from weblib.app_processors import load_logger
+    from weblib.app_processors import load_path_url
+    from weblib.app_processors import load_render
+    from weblib.app_processors import load_session
+    from weblib.app_processors import load_gettext
+    from weblib.app_processors import load_redis
+    from weblib.session import RedisStore
+
     from app.urls import URLS
-    from app.weblib.app_processors import load_logger
-    from app.weblib.app_processors import load_path_url
-    from app.weblib.app_processors import load_render
-    from app.weblib.app_processors import load_session
-    from app.weblib.app_processors import load_gettext
-    from app.weblib.app_processors import load_redis
-    from app.weblib.session import RedisStore
 
     redis = weblib.redis.create_redis()
     views = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'views')
