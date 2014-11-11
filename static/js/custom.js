@@ -173,6 +173,16 @@ $(document).ready(function () {
         singleItem: true
     });
 
+    $("#team-members").owlCarousel({
+
+        navigation: false, // Show next and prev buttons
+        slideSpeed: 800,
+        paginationSpeed: 400,
+        autoPlay: 10000,
+        singleItem: true,
+        stopOnHover: true
+    });
+
     $(".feature").each(function() {
         var $elem = $(this);
         var carouselid = $elem.attr('data-carousel');

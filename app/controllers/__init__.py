@@ -4,9 +4,8 @@
 from functools import partial
 
 import web
-
-from app.weblib.controllers import AbstractCookieAuthorizableController
-from app.weblib.controllers import AbstractParamAuthorizableController
+from weblib.controllers import AbstractCookieAuthorizableController
+from weblib.controllers import AbstractParamAuthorizableController
 
 
 class IndexController(object):
@@ -15,6 +14,7 @@ class IndexController(object):
         lang = lang.split(',')[0] if lang else 'en-US'
         lang = lang.split('-')[0]
         raise web.seeother(lang)
+
 
 class IndexLangController(object):
     def GET(self, lang):
@@ -27,6 +27,7 @@ class IndexLangController(object):
 class OldIndexController(object):
     def GET(self):
         return web.ctx.render.oldindex()
+
 
 class TOSController(object):
     def GET(self):

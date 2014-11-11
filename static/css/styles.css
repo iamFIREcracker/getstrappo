@@ -521,10 +521,6 @@ header .intro-section .buttons {
     padding-bottom: 60px;
 }
 
-.app-brief h2 {
-    margin-bottom: 20px;
-}
-
 .app-brief .phone-image {
     max-width: 450px;
     margin: auto;
@@ -584,23 +580,6 @@ object {
 
 .video {
     background: transparent !important;
-}
-
-.video .embed-container { 
-	position: relative; 
-	padding-bottom: 56.25%; 
-	height: 0; 
-	overflow: hidden; 
-	max-width: 100%; 
-	height: auto; 
-} 
-
-.video .embed-container iframe, .embed-container object, .embed-container embed { 
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	width: 100%; 
-	height: 100%; 
 }
 
 /*---------------------------------------
@@ -780,7 +759,6 @@ object {
 
 .team .team-member .bio {
     font-size: 16px;
-    max-width: 500px;
     margin: auto;
     margin-top: 40px;
 }

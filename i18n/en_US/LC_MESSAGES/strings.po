@@ -44,7 +44,7 @@ msgid "what_it_is"
 msgstr "What it is"
 
 msgid "what_it_is_desc"
-msgstr "Strappo is a 100% Italian carsharing service, aimed squarely at young people who want to get around on the cheap, especially at night when public transport options are next to none.<br/>As you drive around the city, you can share your car with fellow passengers. Join the community, take and offer rides and meet new friends!<br/>The sharing economy works and it's awesome!"
+msgstr "Strappo is a 100% Italian carsharing service, aimed at young people who want to get around on the cheap, especially at night when public transport options are next to none. As you drive around the city, you can share your car with fellow passengers. Join the community, take and offer rides and meet new friends! The sharing economy works and it's awesome!"
 
 msgid "how_it_works"
 msgstr "How it works"
