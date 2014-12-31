@@ -4,8 +4,6 @@
 from functools import partial
 
 import web
-from weblib.controllers import AbstractCookieAuthorizableController
-from weblib.controllers import AbstractParamAuthorizableController
 
 
 class IndexController(object):
@@ -32,3 +30,9 @@ class OldIndexController(object):
 class TOSController(object):
     def GET(self):
         return web.ctx.render.tos()
+
+
+class SitemapController(object):
+    def GET(self):
+        web.header('Content-Type', 'text/xml')
+        return web.ctx.render.sitemap()

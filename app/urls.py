@@ -5,11 +5,14 @@ from app.controllers import IndexController
 from app.controllers import IndexLangController
 from app.controllers import OldIndexController
 from app.controllers import TOSController
+from app.controllers import SitemapController
 
 
 URLS = (
-    '/', IndexController,
-    '/(.+)', IndexLangController,
     '/old', OldIndexController,
     '/tos', TOSController,
+    '/sitemap.xml', SitemapController,
+
+    '/', IndexController,
+    '/(.+)', IndexLangController,
 )
