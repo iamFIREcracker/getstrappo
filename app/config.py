@@ -1,5 +1,4 @@
 APP_NAME = 'getstrappo'
-TAG = '0.0.1'
 
 DEBUG = False
 DEBUG_SQL = False
