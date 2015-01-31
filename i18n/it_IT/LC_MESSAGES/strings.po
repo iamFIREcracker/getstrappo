@@ -233,7 +233,7 @@ msgid "gabriele_role"
 msgstr "Creative &amp; co-founder"
 
 msgid "gabriele_bio"
-msgstr "Gabriele Dini è un creativo e grafico di Viareggio. Si laurea in Arti Multimediali from the Accademia di Belle Arti di Carrara and ottiene un Master al Royal College of Art&Design di Londra. Attualmente vive a Londra, dove è costretto ad alzarsi un'ora prima dei suoi due amici per lavorare a Strappo."
+msgstr "Gabriele Dini è un creativo e grafico di Viareggio. Si laurea in Arti Multimediali all'Accademia di Belle Arti di Carrara e ottiene un Master al Royal College of Art&amp;Design di Londra. Attualmente vive a Londra, dove è costretto ad alzarsi un'ora prima dei suoi due amici per lavorare a Strappo."
 
 msgid "m2_role"
 msgstr "Brand image & marketing guru"
