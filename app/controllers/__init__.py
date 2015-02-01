@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from datetime import datetime
 from functools import partial
 
 import web
@@ -19,7 +20,9 @@ class IndexLangController(object):
         if lang not in ['en', 'it']:
             raise web.seeother('en')
 
-        return web.ctx.render.index(_=partial(web.ctx.gettext, lang=lang))
+        return web.ctx.render.index(_=partial(web.ctx.gettext,
+                                              lang=lang),
+                                    year=datetime.now().year)
 
 
 class OldIndexController(object):
