@@ -11,3 +11,4 @@ dist/*
 local_config.py
 getstrappo.egg*
 tags
+static/.webassets-cache/
