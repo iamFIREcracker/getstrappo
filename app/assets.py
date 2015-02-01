@@ -7,12 +7,23 @@ from webassets import Environment
 
 
 env = Environment('./static', '/static')
-env.debug = web.debug
+env.debug = web.config.debug
 
-## Register your budles here!
-#env.register('base_css',
-#             Bundle("bootstrap/css/bootstrap.min.css",
-#                    "bootstrap/css/bootstrap-responsive.min.css",
-#                    "bootstrap-datepicker/css/datepicker.css",
-#                    "bootstrap-fileupload/css/bootstrap-fileupload.min.css",
-#                    "css/main.css"))
+env.register('css_all',
+             Bundle('css/bootstrap.min.css',
+                    'css/owl.theme.css',
+                    'css/owl.theme.css',
+                    'css/owl.carousel.css',
+                    'css/nivo-lightbox.css',
+                    'css/nivo_themes/default/default.css',
+                    'css/animate.min.css',
+                    'css/styles.css',
+                    'css/colors/strappo-blue.css',
+                    'css/responsive.css',
+                    filters='cssmin',
+                    output='css/all.%(version)s.css'))
+
+env.register('js_custom',
+             Bundle('js/custom.js',
+                    filters='rjsmin',
+                    output="js/custom.%(version)s.js"))
