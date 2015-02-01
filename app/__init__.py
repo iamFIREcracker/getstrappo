@@ -28,8 +28,9 @@ def app_factory():
     from weblib.app_processors import load_gettext
     from weblib.app_processors import load_logger
     from weblib.app_processors import load_path_url
-    from weblib.app_processors import load_render
+    from weblib.app_processors import load_render_with_assets
 
+    from app.assets import env
     from app.urls import URLS
 
     views = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'views')
@@ -39,7 +40,7 @@ def app_factory():
 
     app.add_processor(web.loadhook(load_logger(logger)))
     app.add_processor(web.loadhook(load_path_url))
-    app.add_processor(web.loadhook(load_render(views)))
+    app.add_processor(web.loadhook(load_render_with_assets(views, env)))
     app.add_processor(web.loadhook(load_gettext(gettext)))
 
     return app
