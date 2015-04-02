@@ -7,6 +7,16 @@ from functools import partial
 import web
 
 
+class AppController(object):
+    def GET(self):
+        user_agent = web.ctx.environ.get('HTTP_USER_AGENT')
+        if 'Android' in user_agent:
+            raise web.seeother(web.config.ANDROID_DOWNLOAD_URL)
+        if 'iPhone' in user_agent or 'iPad' in user_agent:
+            raise web.seeother(web.config.ITUNES_DOWNLOAD_URL)
+        raise web.seeother('/')
+
+
 class IndexController(object):
     def GET(self):
         lang = web.ctx.environ.get('HTTP_ACCEPT_LANGUAGE')
@@ -20,9 +30,12 @@ class IndexLangController(object):
         if lang not in ['en', 'it']:
             raise web.seeother('en')
 
-        return web.ctx.render.index(_=partial(web.ctx.gettext,
-                                              lang=lang),
-                                    year=datetime.now().year)
+        return web.ctx.render.\
+            index(_=partial(web.ctx.gettext,
+                            lang=lang),
+                  android_download_url=web.config.ANDROID_DOWNLOAD_URL,
+                  itunes_download_url=web.config.ITUNES_DOWNLOAD_URL,
+                  year=datetime.now().year)
 
 
 class OldIndexController(object):
