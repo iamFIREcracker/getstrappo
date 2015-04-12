@@ -27,7 +27,7 @@ msgstr "Strappo"
 
 
 msgid "title"
-msgstr "Strappo - Social Carsharing"
+msgstr "Strappo - Social Carpooling"
 
 msgid "intro"
 msgstr "Your friends, your car, your city."
