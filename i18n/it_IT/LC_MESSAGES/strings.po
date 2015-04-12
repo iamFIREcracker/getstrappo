@@ -19,7 +19,7 @@ msgid "meta.description"
 msgstr "Strappo è un nuovo modo di muoversi in città. Social, divertente e gratis. L'autostop 2.0!  Unisciti alla community e scambia passaggi in macchina, fai nuovi amici e contribuisci a ridurre l'inquinamento ed il traffico!"
 
 msgid "meta.keywords"
-msgstr "strappo, carsharing, ridesharing, real-time, social, mobile, ios, android"
+msgstr "strappo, carpooling, ridesharing, real-time, social, mobile, ios, android"
 
 msgid "meta.author"
 msgstr "Strappo"
@@ -48,7 +48,7 @@ msgid "what_it_is"
 msgstr "Cos'è"
 
 msgid "what_it_is_desc"
-msgstr "Strappo è un servizio di carsharing 100% italiano, fatto da giovani per giovani e per tutti coloro che vogliono spostarsi in città in maniera economica e rapida (la notte non aspetta nessuno!).  Mentre guidi puoi condividere la tua auto con persone come te! Entra nella community, scambia passaggi in macchina e fai nuove amicizie!  La sharing economy funziona ed è una bomba!"
+msgstr "Strappo è un servizio di carpooling 100% italiano, fatto da giovani per giovani e per tutti coloro che vogliono spostarsi in città in maniera economica e rapida (la notte non aspetta nessuno!).  Mentre guidi puoi condividere la tua auto con persone come te! Entra nella community, scambia passaggi in macchina e fai nuove amicizie!  La sharing economy funziona ed è una bomba!"
 
 msgid "how_it_works"
 msgstr "Come funziona"
@@ -221,7 +221,7 @@ msgid "giovanni_role"
 msgstr "CEO &amp; co-founder"
 
 msgid "giovanni_bio"
-msgstr "Viareggino al 100% così come gli altri due co-founders, Giovanni si laurea in Ingegneria Informatica e lavora per 3.5 anni al CERN. Da forte sostenitore della sharing economy e delle uscite fino a tarda notte, per lui il carsharing di Strappo è un modo per aiutare i giovani a continuare a divertirsi in giro, nonostante la situazione economica italiana."
+msgstr "Viareggino al 100% così come gli altri due co-founders, Giovanni si laurea in Ingegneria Informatica e lavora per 3.5 anni al CERN. Da forte sostenitore della sharing economy e delle uscite fino a tarda notte, per lui il carpooling di Strappo è un modo per aiutare i giovani a continuare a divertirsi in giro, nonostante la situazione economica italiana."
 
 msgid "matteo_role"
 msgstr "CTO &amp; co-founder"
