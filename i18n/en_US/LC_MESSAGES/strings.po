@@ -18,7 +18,7 @@ msgid "meta.description"
 msgstr "Strappo is a new way of getting around.  It's social, funny, and free!  Hitchhiking 2.0!  Join the community and share your car, find new friends and help reducing traffic and pollution!"
 
 msgid "meta.keywords"
-msgstr "strappo, carsharing, ridesharing, real-time, on-demand, social, mobile, ios, android"
+msgstr "strappo, carpooling, ridesharing, real-time, on-demand, social, mobile, ios, android"
 
 msgid "meta.author"
 msgstr "Strappo"
@@ -26,7 +26,7 @@ msgstr "Strappo"
 
 
 msgid "title"
-msgstr "Strappo - Social carsharing"
+msgstr "Strappo - Social Carpooling"
 
 msgid "intro"
 msgstr "Your friends, your car, your city."
@@ -44,7 +44,7 @@ msgid "what_it_is"
 msgstr "What it is"
 
 msgid "what_it_is_desc"
-msgstr "Strappo is a 100% Italian carsharing service, aimed at young people who want to get around on the cheap, especially at night when public transport options are next to none. As you drive around the city, you can share your car with fellow passengers. Join the community, take and offer rides and meet new friends! The sharing economy works and it's awesome!"
+msgstr "Strappo is a 100% Italian carpooling service, aimed at young people who want to get around on the cheap, especially at night when public transport options are next to none. As you drive around the city, you can share your car with fellow passengers. Join the community, take and offer rides and meet new friends! The sharing economy works and it's awesome!"
 
 msgid "how_it_works"
 msgstr "How it works"
@@ -135,7 +135,7 @@ msgid "highlights_environment_text"
 msgstr "Look around, how many cars do you see with just the driver? 69% of Italians drive to work, but only 4% rides as a passenger. For every ride you share, you help reducing traffic and pollution!"
 
 msgid "highlights_facebook_title"
-msgstr "Social carsharing is social"
+msgstr "Social carpooling is social"
 
 msgid "highlights_facebook_text"
 msgstr "Strappo is Facebook-connected. You don't need to create yet another account and it helps towards granting profile authenticity (you can even see the common friends!). Community is being connected!"
