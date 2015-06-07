@@ -998,6 +998,12 @@
 <script src="/static/js/matchMedia.js"></script>
 <script src="/static/js/jquery.ajaxchimp.min.js"></script>
 <script src="/static/js/jquery.fitvids.js"></script>
+<script type="text/javascript" id="cookiebanner"
+    src="/static/js/cookiebanner.min.js"
+    data-position="top"
+    data-message="{{ _('cookie_message') }}"
+    data-linkmsg="{{ _('cookie_more') }}"
+    ></script>
 {% assets 'js_custom' %}
 <script src="{{ ASSET_URL }}"></script>
 {% endassets %}

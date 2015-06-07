@@ -256,3 +256,10 @@ msgstr "Iscriviti alla Newsletter!"
 
 msgid "your_email"
 msgstr "La tua Email"
+
+
+msgid "cookie_message"
+msgstr "Questo sito utilizza i cookie per migliorare servizi e esperienza dei lettori. Se decidi di continuare la navigazione consideriamo che accetti il loro uso."
+
+msgid "cookie_more"
+msgstr "Maggiori informazioni"
