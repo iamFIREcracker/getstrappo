@@ -244,3 +244,10 @@ msgstr "Subscribe to the newsletter"
 
 msgid "your_email"
 msgstr "Your Email"
+
+
+msgid "cookie_message"
+msgstr "We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies."
+
+msgid "cookie_more"
+msgstr "Learn more"
