@@ -25,6 +25,19 @@ class IndexController(object):
         raise web.seeother(lang)
 
 
+class IndexController(object):
+    def GET(self, lang='en'):
+        if lang not in ['en', 'it']:
+            raise web.seeother('en')
+
+        return web.ctx.render.\
+            index(_=partial(web.ctx.gettext,
+                            lang=lang),
+                  android_download_url=web.config.ANDROID_DOWNLOAD_URL,
+                  itunes_download_url=web.config.ITUNES_DOWNLOAD_URL,
+                  year=datetime.now().year)
+
+
 class IndexLangController(object):
     def GET(self, lang):
         if lang not in ['en', 'it']:
